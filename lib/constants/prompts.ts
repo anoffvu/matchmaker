@@ -72,7 +72,13 @@ export function generateMatchingPrompt({
   newMemberBio,
   matchingContext = '',
 }: MatchingPromptParams): string {
-  return MATCHING_PROMPT.replace('{{COMMUNITY_BIOS}}', communityBios)
+  const matchingPrompt = MATCHING_PROMPT.replace(
+    '{{COMMUNITY_BIOS}}',
+    communityBios
+  )
     .replace('{{NEW_MEMBER_BIO}}', newMemberBio)
     .replace('{{MATCHING_CONTEXT}}', matchingContext)
+
+  console.log('Generated matching prompt:', matchingPrompt)
+  return matchingPrompt
 }
