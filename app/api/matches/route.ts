@@ -1,36 +1,62 @@
-import { AnthropicStream, StreamingTextResponse } from 'ai'
-import Anthropic from '@anthropic-ai/sdk'
+import { Anthropic } from '@anthropic-ai/sdk'
 import { generateMatchingPrompt } from '@/lib/constants/prompts'
 import { COMMUNITY_BIOS } from '@/lib/constants/communityBios'
 import { MOCK_RESPONSE } from '@/lib/constants/mockResponse'
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-})
-
 export async function POST(req: Request) {
   try {
-    return new Response(MOCK_RESPONSE)
-    const { prompt } = await req.json()
-    const { bio, matchingContext } = JSON.parse(prompt)
+    const USE_MOCK = false // Set to false when ready for real API
+
+    if (USE_MOCK) {
+      return new Response(MOCK_RESPONSE, {
+        headers: {
+          'Content-Type': 'text/plain',
+        },
+      })
+    }
+
+    const body = await req.json()
+    console.log('Received request body:', body)
+
+    const { bio, matchingContext } = body
 
     const promptData = generateMatchingPrompt({
       communityBios: COMMUNITY_BIOS,
-      newMemberBio: bio,
+      newMemberBio: bio || '',
       matchingContext: matchingContext || '',
     })
 
-    const response = await anthropic.messages.create({
-      model: 'claude-3-sonnet-20240229',
-      max_tokens: 4096,
-      messages: [{ role: 'user', content: promptData }],
-      stream: true,
+    console.log('Community bios:', COMMUNITY_BIOS)
+    console.log('Bio:', bio)
+    console.log('Matching context:', matchingContext)
+
+    console.log('Generated prompt:', promptData)
+
+    const anthropic = new Anthropic({
+      apiKey: process.env.ANTHROPIC_API_KEY,
     })
 
-    const stream = AnthropicStream(response)
-    return new StreamingTextResponse(stream)
+    const response = await anthropic.messages.create({
+      model: 'claude-3-5-sonnet-20241022',
+      max_tokens: 4096,
+      messages: [{ role: 'user', content: promptData }],
+      stream: false,
+    })
+
+    console.log('Response:', response)
+
+    return new Response(response.content[0].text, {
+      headers: {
+        'Content-Type': 'text/plain',
+      },
+    })
   } catch (error) {
-    console.error('Error:', error)
-    return new Response('Error processing request', { status: 500 })
+    console.error('API Error:', error)
+    return new Response(JSON.stringify({ error: 'Error processing request' }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
   }
 }
