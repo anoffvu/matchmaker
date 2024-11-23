@@ -18,19 +18,13 @@ export async function POST(req: Request) {
     const body = await req.json()
     console.log('Received request body:', body)
 
-    const { bio, matchingContext } = body
+    const { bio, matchingContext } = body.body || body
 
     const promptData = generateMatchingPrompt({
       communityBios: COMMUNITY_BIOS,
       newMemberBio: bio || '',
       matchingContext: matchingContext || '',
     })
-
-    console.log('Community bios:', COMMUNITY_BIOS)
-    console.log('Bio:', bio)
-    console.log('Matching context:', matchingContext)
-
-    console.log('Generated prompt:', promptData)
 
     const anthropic = new Anthropic({
       apiKey: process.env.ANTHROPIC_API_KEY,
@@ -43,7 +37,7 @@ export async function POST(req: Request) {
       stream: false,
     })
 
-    console.log('Response:', response)
+    console.log('LLM Response:', response)
 
     return new Response(response.content[0].text, {
       headers: {

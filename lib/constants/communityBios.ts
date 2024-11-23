@@ -1,3 +1,40 @@
+export const SHORT_COMMUNITY_BIOS = `
+Tyler Bainbridge
+  4:37 PM
+Hi everyone!! Looking forward to meeting you all.
+aI grew up in a small Massachusetts town and later went to UMass Lowell for Computer Science before dropping out to join a startup that didn't end up working out. So it goes...
+After a few years of bouncing around Boston tech companies, I moved to New York City for a Software Engineering job @ Meta where I helped build the open-source rich text framework Lexical.
+My fingers were crossed that I'd be part of one Meta's mass lay-offs so I could use the severance to turn my side project into a real career, and in May 2023 my wish was granted.
+Next summer I'm marrying my girlfriend of 10 years in Southern Maine :)
+What I'm working on
+Perfectly Imperfect (2020 - present)
+A culture newsletter offering “A Taste of Someone’s Taste” via recommendations from guests like Ayo Edebiri, Charli XCX, John Cale, Matty Matheson, Michael Imperioli, Molly Ringwald, and Jack Antonoff. Full archive here.
+In January 2024 we launched a social recommendation app called PI.FYI.
+Covered by The New York Times (2x), The Verge, NPR Morning Edition, Vanity Fair, Wired, Office Magazine, and more.
+We throw parties/concerts around New York City and at SXSW.
+Interests
+Music- I'm obsessed with music, haha. I write about it often for my newsletter and frequently update a playlist of the best new music in New York City.
+Photography- I shoot a lot of slice of life style photos with my Contax t2 and Leica m6.
+Film- I'm pretty active on Letterboxd. My current favorites are Buffalo 66, Last Days of Disco, Spiderman 2, and The Long Goodbye
+Cycling- A newer passion of mine. Hoping to ride to Montreal from NYC later this year.
+DJing- I occasionally DJ parties around NYC. It's fun!
+What I can help with
+Newsletter growth
+Engineering (especially Javascript, React, Node, GraphQL, Apollo, Postgres)
+Community building
+Publicity & media relations
+Culture & trends
+Here's a photo of me DJing a party I threw during new york fashion week. (edited) 
+DSC_3170.JPG
+ 
+DSC_3170.JPG
+:fire:
+25
+:vinyl:
+2
+:wave:
+5`
+
 export const COMMUNITY_BIOS = `
 Tyler Bainbridge
   4:37 PM

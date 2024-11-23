@@ -3,13 +3,7 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { useCompletion } from 'ai/react'
 import { Loader2 } from 'lucide-react'
 import { FileText } from 'lucide-react'
@@ -33,6 +27,10 @@ export default function Home() {
 
   const { isLoading, complete } = useCompletion({
     api: '/api/matches',
+    body: {
+      // Additional parameters that will be sent with every request
+      // This ensures we don't wrap everything in a 'prompt' field
+    },
     onFinish: (completion) => {
       try {
         console.log('Raw AI Response:', completion)
@@ -109,8 +107,19 @@ export default function Home() {
     setMatches([])
     setSummary('')
 
+    if (!bio.trim()) {
+      setError('Please enter your bio')
+      return
+    }
+
     try {
-      const completion = await complete({ bio, matchingContext })
+      // Now we pass the data directly without JSON.stringify
+      const completion = await complete('match', {
+        body: {
+          bio: bio.trim(),
+          matchingContext: matchingContext.trim(),
+        },
+      })
 
       if (!completion) {
         throw new Error('No completion received')
@@ -172,6 +181,7 @@ export default function Home() {
     }
   }
 
+  // rendering
   return (
     <div className='container mx-auto p-4 max-w-2xl'>
       <Card>
