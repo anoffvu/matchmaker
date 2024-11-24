@@ -505,6 +505,20 @@ export default function Home() {
           </div>
         )}
       </div>
+      {/* Updated footer with link */}
+      <footer className='text-center py-4 text-white/40 text-sm'>
+        -1 to 0... with friends :)
+        <br />
+        Made by{' '}
+        <a
+          href='https://an.vu'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='hover:text-white/60 transition-colors underline'
+        >
+          An
+        </a>
+      </footer>
     </div>
   )
 }
