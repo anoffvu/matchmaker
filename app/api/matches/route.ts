@@ -44,7 +44,7 @@ export async function POST(req: Request) {
     })
 
     // Get the configured provider
-    const aiProvider = AIProviderFactory.getProvider('anthropic')
+    const aiProvider = AIProviderFactory.getProvider(AI_PROVIDER)
 
     // Use the provider to generate a response
     const responseText = await aiProvider.generateResponse(promptData)
