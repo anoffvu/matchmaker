@@ -57,6 +57,9 @@ Provide a brief summary (2-3 sentences) explaining the overall rationale for the
 </summary>
 
 Remember to focus on creating meaningful connections that could lead to potential collaborations, mentorship opportunities, or valuable exchanges of ideas within the South Park Commons community.
+
+Here are some examples of good matching:
+{{EXAMPLE_RESULTS}}
 `
 
 // Define the parameters that need to be injected
@@ -64,6 +67,7 @@ export interface MatchingPromptParams {
   communityBios: string
   newMemberBio: string
   matchingContext?: string
+  exampleResults?: string
 }
 
 // Helper function to inject parameters into the prompt
@@ -71,19 +75,14 @@ export function generateMatchingPrompt({
   communityBios,
   newMemberBio,
   matchingContext = '',
+  exampleResults = '',
 }: MatchingPromptParams): string {
-  console.log('Generating matching prompt...', {
-    communityBios,
-    newMemberBio,
-    matchingContext,
-  })
   const matchingPrompt = MATCHING_PROMPT.replace(
     '{{COMMUNITY_BIOS}}',
     communityBios
   )
     .replace('{{NEW_MEMBER_BIO}}', newMemberBio)
     .replace('{{MATCHING_CONTEXT}}', matchingContext)
-
-  // console.log('Generated matching prompt:', matchingPrompt)
+    .replace('{{EXAMPLE_RESULTS}}', exampleResults)
   return matchingPrompt
 }

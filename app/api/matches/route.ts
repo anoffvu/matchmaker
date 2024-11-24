@@ -1,29 +1,42 @@
 import { Anthropic } from '@anthropic-ai/sdk'
 import { generateMatchingPrompt } from '@/lib/constants/prompts'
+import { EXAMPLE_RESULTS } from '@/lib/constants/exampleResults'
 import { COMMUNITY_BIOS } from '@/lib/constants/communityBios'
-import { MOCK_RESPONSE } from '@/lib/constants/mockResponse'
+
+function parseXMLResponse(text: string) {
+  const matches: Match[] = []
+
+  // Extract matches
+  const matchRegex =
+    /<match\d+>\s*<name>(.*?)<\/name>\s*<reason>(.*?)<\/reason>\s*<\/match\d+>/gs
+  let match
+  while ((match = matchRegex.exec(text)) !== null) {
+    matches.push({
+      name: match[1].trim(),
+      reason: match[2].trim(),
+    })
+  }
+
+  // Extract summary
+  const summaryMatch = /<summary>(.*?)<\/summary>/s.exec(text)
+  const summary = summaryMatch ? summaryMatch[1].trim() : ''
+
+  return {
+    matches,
+    summary,
+  }
+}
 
 export async function POST(req: Request) {
   try {
-    const USE_MOCK = false // Set to false when ready for real API
-
-    if (USE_MOCK) {
-      return new Response(MOCK_RESPONSE, {
-        headers: {
-          'Content-Type': 'text/plain',
-        },
-      })
-    }
-
     const body = await req.json()
-    console.log('Received request body:', body)
-
-    const { bio, matchingContext } = body.body || body
+    const { bio, matchingContext } = body
 
     const promptData = generateMatchingPrompt({
       communityBios: COMMUNITY_BIOS,
       newMemberBio: bio || '',
       matchingContext: matchingContext || '',
+      exampleResults: EXAMPLE_RESULTS,
     })
 
     const anthropic = new Anthropic({
@@ -33,24 +46,24 @@ export async function POST(req: Request) {
     const response = await anthropic.messages.create({
       model: 'claude-3-5-sonnet-20241022',
       max_tokens: 4096,
+      temperature: 0.3,
       messages: [{ role: 'user', content: promptData }],
       stream: false,
     })
 
-    console.log('LLM Response:', response)
+    // Debug log the raw response
+    console.log('Raw AI response:', response.content[0].text)
 
-    return new Response(response.content[0].text, {
-      headers: {
-        'Content-Type': 'text/plain',
-      },
-    })
+    const responseText = response.content[0].text
+    console.log('Raw AI response:', responseText)
+
+    const formattedResponse = parseXMLResponse(responseText)
+    return Response.json(formattedResponse)
   } catch (error) {
     console.error('API Error:', error)
-    return new Response(JSON.stringify({ error: 'Error processing request' }), {
-      status: 500,
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
+    return Response.json(
+      { error: 'Error processing request', matches: [], summary: '' },
+      { status: 500 }
+    )
   }
 }

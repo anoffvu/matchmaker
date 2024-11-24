@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { useCompletion } from 'ai/react'
 import { Loader2 } from 'lucide-react'
 import { FileText } from 'lucide-react'
 import { BIO_TEMPLATE } from '@/lib/constants/bioTemplate'
@@ -20,86 +19,11 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null)
   const [matches, setMatches] = useState<Match[]>([])
   const [summary, setSummary] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
 
   const fillTemplate = () => {
     setBio(BIO_TEMPLATE)
   }
-
-  const { isLoading, complete } = useCompletion({
-    api: '/api/matches',
-    body: {
-      // Additional parameters that will be sent with every request
-      // This ensures we don't wrap everything in a 'prompt' field
-    },
-    onFinish: (completion) => {
-      try {
-        console.log('Raw AI Response:', completion)
-
-        if (!completion) {
-          throw new Error('No completion received')
-        }
-
-        const parser = new DOMParser()
-        const xmlDoc = parser.parseFromString(completion, 'text/xml')
-
-        // Check for parsing errors
-        const parserError = xmlDoc.querySelector('parsererror')
-        if (parserError) {
-          console.error('XML Parser Error:', parserError.textContent)
-          throw new Error('Failed to parse XML response')
-        }
-
-        // Parse matches
-        const matchesData = Array.from({ length: 3 }, (_, i) => {
-          const matchNum = i + 1
-          const matchElement = xmlDoc.querySelector(`match${matchNum}`)
-
-          if (!matchElement) {
-            return null
-          }
-
-          const name = matchElement.querySelector('name')?.textContent
-          const reason = matchElement.querySelector('reason')?.textContent
-
-          if (!name || !reason) {
-            return null
-          }
-
-          return { name, reason }
-        }).filter((match): match is Match => match !== null)
-
-        // Verify we got matches
-        if (matchesData.length === 0) {
-          throw new Error('No valid matches found in response')
-        }
-
-        setMatches(matchesData)
-
-        // Parse summary
-        const summaryElement = xmlDoc.querySelector('summary')
-        const summaryText = summaryElement?.textContent?.trim()
-
-        if (!summaryText) {
-          console.warn('Summary not found or empty')
-        }
-
-        setSummary(summaryText || '')
-
-        // Optional: Parse matching analysis for additional context
-        const analysisElement = xmlDoc.querySelector('matching_analysis')
-        if (analysisElement) {
-          console.log('Matching Analysis:', analysisElement.textContent)
-        }
-      } catch (error) {
-        console.error('Processing Error:', error)
-        setError(
-          error instanceof Error
-            ? error.message
-            : 'Error processing the response'
-        )
-      }
-    },
-  })
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -112,72 +36,32 @@ export default function Home() {
       return
     }
 
+    setIsLoading(true)
+
     try {
-      // Now we pass the data directly without JSON.stringify
-      const completion = await complete('match', {
-        body: {
+      const response = await fetch('/api/matches', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           bio: bio.trim(),
           matchingContext: matchingContext.trim(),
-        },
+        }),
       })
 
-      if (!completion) {
-        throw new Error('No completion received')
+      if (!response.ok) {
+        throw new Error('Failed to fetch matches')
       }
 
-      const parser = new DOMParser()
-      const xmlDoc = parser.parseFromString(completion, 'text/xml')
-
-      // Check for parsing errors
-      const parserError = xmlDoc.querySelector('parsererror')
-      if (parserError) {
-        throw new Error('Failed to parse XML response')
-      }
-
-      // Parse matches
-      const matchesData = Array.from({ length: 3 }, (_, i) => {
-        const matchNum = i + 1
-        const matchElement = xmlDoc.querySelector(`match${matchNum}`)
-
-        if (!matchElement) {
-          return null
-        }
-
-        const name = matchElement.querySelector('name')?.textContent
-        const reason = matchElement.querySelector('reason')?.textContent
-
-        if (!name || !reason) {
-          return null
-        }
-
-        return { name, reason }
-      }).filter((match): match is Match => match !== null)
-
-      // Verify we got matches
-      if (matchesData.length === 0) {
-        throw new Error('No valid matches found in response')
-      }
-
-      setMatches(matchesData)
-
-      // Parse summary
-      const summaryElement = xmlDoc.querySelector('summary')
-      const summaryText = summaryElement?.textContent?.trim()
-
-      if (!summaryText) {
-        console.warn('Summary not found or empty')
-      }
-
-      setSummary(summaryText || '')
-
-      // Optional: Parse matching analysis for additional context
-      const analysisElement = xmlDoc.querySelector('matching_analysis')
-      if (analysisElement) {
-        console.log('Matching Analysis:', analysisElement.textContent)
-      }
+      const data = await response.json()
+      setMatches(data.matches || [])
+      setSummary(data.summary || '')
     } catch (error) {
       console.error('Submission Error:', error)
       setError('An error occurred while fetching matches. Please try again.')
+    } finally {
+      setIsLoading(false)
     }
   }
 

@@ -33,7 +33,154 @@ DSC_3170.JPG
 :vinyl:
 2
 :wave:
-5`
+5
+
+
+
+
+
+
++3
+13 replies
+Last reply 5 months agoView thread
+
+
+JMo
+  5:35 PM
+joined #introductions. Also, Avery Chiu
+ and 4 others joined.
+
+
+Wei Ding
+  9:56 PM
+Hey friends, I'm very excited to join SPC and I cannot wait to work with awesome people like yourselves.
+I’m currently building general purpose humanoid robot with my awesome teammates (OGs of humanoid and top AI expert). We’re convicted to deliver a product to customer and scale its skillsets through software updates, like an iPhone, except that now with AI, the software is programmed with language based instructions and human demonstrations.
+Our robot can handle stairs, gaps and confined spaces with human level agility, carrying 50lbs human level payload. Our robot will go to every factory, every warehouse and everyone’s home.
+About me:
+Originally from China, graduated from Umich Ann Arbor Aerospace engineering. I spent 7 years at Apple building decision making technology for Apple’s autonomous systems. Then I cofounded a robotic startup working on automation of cloth manufacturing, where I was in charge of the software and control algorithms for robot arms.
+Personal Interests:
+Hiphop dance
+Barbecue
+(edited)
+:fire:
+13
+:robot:
+7
+:wave:
+8
+
+
+
+
+4 replies
+Last reply 6 months agoView thread
+
+
+Wenda Wang
+  10:01 PM
+joined #introductions. Also, Guglielmo Daddi
+ joined.
+
+
+Nate Tippens
+  8:40 AM
+Hey all, I can't wait to join this amazing community in person next week!
+What I'm working on:
+I am working with my brother Jon to accelerate development of genetically modified plants (GMOs). We are building a foundation model that can design optimal DNA sequences for any plant species, short-cutting years of breeding and optimization. We hope this can have a transformative impact for food tech, biofuels and carbon capture.
+About me:
+I grew up in the suburbs of Maryland where I was introduced to bioengineering in high school
+In undergrad, I decided to pivot away from computer science and master genetic engineering
+I love hiking, squash, scifi, movie nights, and history of science
+Previous work and experience:
+My PhD research focused on decoding the "programming language" of the human genome
+At MIT, my team developed novel programmable circuits for RNA therapeutics and filed a patent
+I was lead scientist to set up a lab, build the company and develop our technology
+I worked at another biotech company using machine learning for RNA sequence design
+(edited)
+:fire:
+21
+:wave:
+9
+:open_mouth:
+1
+:hamster_dance:
+1
+
+
+
+
+
+
++1
+8 replies
+Last reply 6 months agoView thread
+
+
+Bryson Jones
+  12:49 PM
+joined #introductions.
+
+
+Brian Fields
+  4:40 PM
+Hello folks! I look forward to meeting you all shortly!
+My highlights:
+Ph.D. in computer architecture (CPU and GPU hardware)
+10 years building the Minerva University from scratch.
+Previously a professional poker player.
+Was the founder and MC of Trainwreck Cabaret, where we guaranteed a trainwreck every show (without even trying).
+Grew up in a small town in southern Ohio. Lived in Worcester, Hudson, Madison, Berkeley, Palo Alto, and am now in my sixth place in San Francisco.
+My family consists of my fiancé Eylem and two cats, Epsilon and Nova.
+Jason Morrison and I are building Flowplay, an IDE for product teams developing applications on top of LLMs.
+:wave:
+17
+
+
+
+2 replies
+Last reply 6 months agoView thread
+
+
+Jason Morrison
+  6:53 PM
+Hi all, very excited to join SPC here in SF and I look forward to meeting and working with this amazing group!
+Currently: Building Flowplay, an IDE for building LLM agents and workflows, with my cofounder Brian :point_up:.
+Previously: Building Minerva Project + University as SWE → VPE. Highlights included setting up new campuses in Berlin and Buenos Aires; building a multiplayer learn-to-code platform; running a summer undergrad internship for applied ML.
+Very Previously: Learned to code on a :commodore: C64 with the Programmer’s Reference Guide and a steady stream of Compute!’s Gazette magazines.  
+Personal interests include dance (social, ballroom, hiphop), hiking and backpacking, indoor cycling, being an amateur with a soldering gun, ad-libbing it in the kitchen, and our two newly-adopted cats.
+Previous :nerd_face: interests include: the science of learning, distributed systems (CRDTs, RAFT, etc.), synthetic biology.
+:tada:
+8
+:wave::wave::skin-tone-5:
+12
+:cat2:
+3
+
+
+
+3 replies
+Last reply 6 months agoView thread
+
+
+Chris Samra
+  8:29 PM
+joined #introductions. Also, Drishan Arora
+ and 3 others joined.
+
+
+George Xian Zeng
+  11:18 AM
+Hello folks!  I'm George, and I'm very excited to join SPC NYC and looking forward to meeting people here in person.
+Currently I'm in exploration mode and investigating stuff in both crypto and AI.  A few projects I've been mulling on include (1) decentralized marketplace for GPU compute for AI tasks and crypto mining, (2) crypto infrastructure, and (3) protocols for stable coins and decentralized exchange design.  I'm in a broader exploration phase in life though and am trying to actively not commit to one idea or direction for a while.  :sweat_smile:.  I"m also currently doing a comp sci masters, with a focus on AI for fun
+Previously I was the COO of dYdX (one of the largest decentralized exchanges in crypto), founder of a social ecommerce company (Moonship), and a product lead at Facebook (where I built up the adtech team and spun up new adtech products in new verticals).  I also founded a company in healthcare tech doing readmissions, and have actively invested in and advised companies in crypto, fintech, saas, ecomm, healthcare, and adtech
+Personal interest include working out/trying to get in shape, reading 3-4 books/week, dancing, karaoking, and cooking.  Attached is a photo from back at Facebook where we combined karaoking with a company offsite.  Definitely my favorite offsite
+Happy to help out folks with anything related to crypto, healthcare, adtech, saas, ecomm or for folks who want perspectives on contrasting company building at the earliest stage vs series c/d vs big tech
+I plan on also spending a fair amount of time in SF, so I hope to meet folks on both coasts :slightly_smiling_face:
+(edited)
+:wave-animated:
+14
+:fire:
+4`
 
 export const COMMUNITY_BIOS = `
 Tyler Bainbridge
