@@ -7,6 +7,12 @@ import { COMMUNITY_BIOS } from '@/lib/constants/communityBios'
 const AI_PROVIDER =
   (process.env.AI_PROVIDER as 'anthropic' | 'gemini') || 'anthropic'
 
+// Add this interface before the parseXMLResponse function
+interface Match {
+  name: string
+  reason: string
+}
+
 function parseXMLResponse(text: string) {
   const matches: Match[] = []
 
