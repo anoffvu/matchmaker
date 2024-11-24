@@ -51,9 +51,6 @@ export function AvatarCircle({ name, size = 40 }: AvatarCircleProps) {
       ['#00F5D4', '#00BBF9'], // Mint to Sky
     ]
 
-    // Get base colors
-    const pair = baseColors[Math.abs(hash) % baseColors.length]
-
     // Add some randomization to the colors while keeping them vibrant
     const color1 = generateColor(hash, 70 + (hash % 20), 60 + (hash % 15))
     const color2 = generateColor(

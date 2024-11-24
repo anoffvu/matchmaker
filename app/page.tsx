@@ -4,10 +4,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Textarea } from '@/components/ui/textarea'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Loader2 } from 'lucide-react'
 import { FileText, AlignLeft, AlertCircle } from 'lucide-react'
-import { BIO_TEMPLATE } from '@/lib/constants/bioTemplate'
-import { cn } from '@/lib/utils'
 import { AvatarCircle } from '@/components/ui/avatar-circle'
 
 interface Match {
@@ -71,13 +68,6 @@ const loadingMessages = [
 const isTemplateValid = (sections: BioSection[]): boolean => {
   // Check if at least the first section has content
   return sections[0]?.answer.trim().length > 0
-}
-
-// Add this to your interfaces at the top
-interface MatchResponse {
-  matches?: Match[]
-  summary?: string
-  error?: string
 }
 
 export default function Home() {
