@@ -6,6 +6,7 @@ import { Textarea } from '@/components/ui/textarea'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { FileText, AlignLeft, AlertCircle } from 'lucide-react'
 import { AvatarCircle } from '@/components/ui/avatar-circle'
+import { cn } from '@/lib/utils'
 
 interface Match {
   name: string

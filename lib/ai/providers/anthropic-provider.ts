@@ -1,6 +1,5 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { AIProvider } from '../types'
-import { StreamingTextResponse } from 'ai'
 import { AI_MODELS } from '../constants'
 
 export class AnthropicProvider implements AIProvider {
@@ -19,6 +18,9 @@ export class AnthropicProvider implements AIProvider {
       temperature: 0.7,
       messages: [{ role: 'user', content: prompt }],
     })
+    if (response.content[0].type !== 'text') {
+      throw new Error('Expected text response from Anthropic')
+    }
     return response.content[0].text
   }
 
@@ -29,6 +31,18 @@ export class AnthropicProvider implements AIProvider {
       messages: [{ role: 'user', content: prompt }],
       stream: true,
     })
-    return new StreamingTextResponse(response)
+    return new ReadableStream({
+      async start(controller) {
+        for await (const chunk of response) {
+          if (
+            chunk.type === 'content_block_delta' &&
+            chunk.delta.type === 'text_delta'
+          ) {
+            controller.enqueue(chunk.delta.text)
+          }
+        }
+        controller.close()
+      },
+    })
   }
 }
