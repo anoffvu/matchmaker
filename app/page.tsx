@@ -212,7 +212,7 @@ export default function Home() {
   // rendering
   return (
     <div className='min-h-screen bg-[#121212] text-white'>
-      <div className='container mx-auto p-4 max-w-3xl'>
+      <div className='container mx-auto p-4 max-w-3xl pt-8'>
         {currentView === 'questionnaire' ? (
           <Card className='bg-[#1A1A1A] border-[#2A2A2A] shadow-xl'>
             <CardHeader className='border-b border-[#2A2A2A]'>
