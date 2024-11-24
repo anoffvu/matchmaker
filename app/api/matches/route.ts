@@ -50,8 +50,20 @@ export async function POST(req: Request) {
     const responseText = await aiProvider.generateResponse(promptData)
 
     console.log('Raw AI response:', responseText)
-    const formattedResponse = parseXMLResponse(responseText)
 
+    // Check if the response contains apologetic messages
+    if (
+      responseText.toLowerCase().includes('apologize') ||
+      responseText.toLowerCase().includes('could you provide')
+    ) {
+      return Response.json({
+        error: responseText,
+        matches: [],
+        summary: '',
+      })
+    }
+
+    const formattedResponse = parseXMLResponse(responseText)
     return Response.json(formattedResponse)
   } catch (error) {
     console.error('API Error:', error)
