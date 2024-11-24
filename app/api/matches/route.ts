@@ -1,7 +1,11 @@
-import { Anthropic } from '@anthropic-ai/sdk'
+import { AIProviderFactory } from '@/lib/ai/provider-factory'
 import { generateMatchingPrompt } from '@/lib/constants/prompts'
 import { EXAMPLE_RESULTS } from '@/lib/constants/exampleResults'
 import { COMMUNITY_BIOS } from '@/lib/constants/communityBios'
+
+// Configure which provider to use
+const AI_PROVIDER =
+  (process.env.AI_PROVIDER as 'anthropic' | 'gemini') || 'anthropic'
 
 function parseXMLResponse(text: string) {
   const matches: Match[] = []
@@ -39,25 +43,15 @@ export async function POST(req: Request) {
       exampleResults: EXAMPLE_RESULTS,
     })
 
-    const anthropic = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    })
+    // Get the configured provider
+    const aiProvider = AIProviderFactory.getProvider('anthropic')
 
-    const response = await anthropic.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
-      max_tokens: 4096,
-      temperature: 0.3,
-      messages: [{ role: 'user', content: promptData }],
-      stream: false,
-    })
+    // Use the provider to generate a response
+    const responseText = await aiProvider.generateResponse(promptData)
 
-    // Debug log the raw response
-    console.log('Raw AI response:', response.content[0].text)
-
-    const responseText = response.content[0].text
     console.log('Raw AI response:', responseText)
-
     const formattedResponse = parseXMLResponse(responseText)
+
     return Response.json(formattedResponse)
   } catch (error) {
     console.error('API Error:', error)

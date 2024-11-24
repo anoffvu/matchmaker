@@ -183,6 +183,1905 @@ I plan on also spending a fair amount of time in SF, so I hope to meet folks on 
 4`
 
 export const COMMUNITY_BIOS = `
+Happy Thursday everyone! Pedro here. Stoked to be a part of SPC and thanks 
+@Sunita Mohanty
+ for the in :raised_hands:
+About me:
+Born in Havana Cuba :flag-cu: grew up in Spain :es:
+Moved to the US for Computer Science grad school at Illinois Tech. Soon after that I moved to foggy, wonderful San Francisco where I lived for 6 years :foggy: They say all Cubans end up in Miami so here I am now!
+Been at both bigcos and startups in my career. In past lives I've been in the automotive/hardware side, but transitioned to healthtech in 2018 when I joined Stride Health. I started as an early employee and grew with the company to become its Head of Engineering 1.5 years ago. I built consumer shopping and enrollment,  the mobile apps with tax and banking capabilities, and our Enterprise SaaS Platform (think Shopify but you shop for health plans). Right now we’re at Series C stage and growing fast :rocket:
+Recently married, and we just got the cutest puppy human eyes have ever seen.
+What I’m currently exploring:
+Been tinkering with AI/LLMs since GPT-3 times, but it’s become an obsession lately :slightly_smiling_face:
+I’ve wanted to build a company from scratch for a while. And now I’m doing just that! Left Stride a month ago and I'm exploring all angles around a simple premise: there's great healthcare in this country – it's just not evenly distributed. How can we bring it to the masses?
+Would love to connect with potential partners, customers, investors, and accelerate my learning. Even though I’ve been at it for more than half a decade, healthcare is a beast and every bit helps!
+Talk to me about:
+Healthtech! I'm most interested in the business of healthcare: care delivery models, intersection between the clinical and the financial, insurance, aligning the messy incentives, and how technology can transform all those.
+Ways I can help others:
+Full-stack web and mobile engineering: containerization, serverless, what’s new and easy to use and scale
+Interfacing with CMS and the various states for health insurance enrollment (yes… it’s not fun)
+Security and Compliance from an Engineering standpoint: NIST, HIPAA, SOC2, audits
+Building a high-velocity, healthy, marathon-not-sprint Product and Engineering culture
+LLMs, multi-modal models, AI agents, RAG, vectorstores, MLOps.
+In general, creating product v1's that aren’t perfect and polishing them into v2s+ is where I feel at home. AMA!
+Personal interests:
+I am the founder of Casa de la Rumba, a Burning Man camp.
+I DJ in my (very little these days) spare time!
+Love to travel near and far – last big one was Japan, highly recommend Niseko if you ski
+Food in all shapes and sizes (I miss SF’s Burmese food here in Miami, looking for recs!)
+Sports: padel, various bootcamps, weightlifting, I do one triathlon a year. Big Real Madrid, F1, and Fernando Alonso fan!
+I’m most active on Twitter – let’s connect!
+:wave:
+23
+:raised_hands:
+2
+:fireball:
+2
+
+
+
+
+4 replies
+Last reply 11 months agoView thread
+
+
+Ryan Weber
+  12:47 PM
+joined #introductions. Also, Shannon Hong
+ and 4 others joined.
+
+
+Abhi Muchhal
+  8:09 PM
+Hey everyone my name is Abhi and I’ll be joining #spc-nyc this week :)
+About Me:
+Studied CS and business from University of Michigan (Go Blue!) :part_alternation_mark:
+I have been working in product for the past 6 years — going in descending order of scale. I started out Meta working on ads, AR/VR and election integrity. Then worked at Nubank, growth stage fintech, where I built and scaled a PFM product for Brazilian :flag-br: customers. Rounded it out at a seed stage climate-fintech startup in NYC :electric_plug:
+Advised/angel-invested in a few startups in Africa across Kenya, Nigeria, Uganda
+Why I joined SPC?
+-1 to 0 stage is very lonely and wanted a community to ideate and learn with. Also looking for a technical co-founder.
+Personal Interests
+Foodie: Trying out new restaurants in NYC (list of my reccs)
+Training for a triathlon — running, cycling, biking.
+Watching formula 1 and European Soccer
+Travel: Lived as a nomad in Latin America for a few months last year and learned Portuguese :earth_americas:
+What I’m currently exploring:
+Compliance workflow automation tools for small to medium sized fintechs and banks
+Software to enable climate organizations make sense of government benefits and legislation
+Talk to me about:
+Fintech, especially internationally
+Climate software
+Sports, history, entertainment
+Going on a run, bike or exploring a new restaurant in the city!
+Excited to meet you all soon!
+Below I'm at the top of of a hike in Rio!  (edited) 
+PXL_20230222_181615026.jpg
+ 
+PXL_20230222_181615026.jpg
+:wave:
+14
+:runner:
+3
+:+1:
+3
+
+
+
+2 replies
+Last reply 10 months agoView thread
+
+
+Ryan Barrett
+  9:25 PM
+Hi all! Joining PSC this month, onboarding this week, psyched to get to know more of you!
+About me:
+Stereotypical Silicon Valley engineering leader
+Grew up in my eng career at Google (2002-2012 ish), mostly systems and infrastructure. Co-founded App Engine, which led to Google Cloud
+Quip (2y), productivity tools
+...then into leadership, ran eng orgs at mission driven startups, first Color (6y), biotech/health tech
+and most recently NCX (3y), climate tech
+More at https://snarfed.org/
+What I’m currently exploring:
+Decentralized social networks: fediverse/Mastodon, Bluesky, Nostr, IndieWeb. I build and run a couple open source bridges that translate between them and let you follow people across them, eg https://fed.brid.gy/
+Other climate tech ideas: carbon accounting, aerial methane sniffing, multi-spectral satellite imagery, decarbonizing cement and steel and cargo shipping
+SRE and DevOps: would Jupyter notebooks with bash/ssh kernels be a useful new paradigm for devops tooling?
+Training models to detect fraud in academic research, starting with neuroscience western blot imaging
+Networking: thinking about a visual traceroute for non-technical people that highlights organizations and other boundaries - CDNs, ISPs, link layer (WiFi vs cell vs cable vs satellite), country firewalls, bufferbloat contribution (can't wait for L4S!)
+Security and sigint: GrayNoise, Shodan, etc.
+Talk to me about:
+Eng leadership: scaling orgs, career ladders, APIs as inter-team interfaces, recruiting structures, "use boring technology," iteration strategies
+Data platform: data warehouses, analytics/BI, high-throughput file formats and engines (Parquet, Avro, Iceberg, Presto, Delta Lake, etc), MLOps
+Climate tech: carbon offsets, nature-based solutions, Scope 3 emissions, methane, refrigerants, Drawdown
+Bioinformatics, health tech, DNA sequencing, biomarkers
+"Shippable bad ideas"
+Integrating with social networks, both centralized APIs and decentralized protocols
+Personal interests:
+Parenting: we have a 9yo who hasn't burned down the house or school yet, so we are clearly amazing parents :sunglasses:
+Classical piano: Debussy, Rachmaninoff, Gershwin, Bach
+Video games! Re-playing The Witness right now. Wish I had more time to play games
+(edited)
+snarfed.orgsnarfed.org
+snarfed.org
+Ryan Barrett's blog (182 kB)
+https://snarfed.org/
+
+:heart:
+14
+:wave-animated:
+14
+:musical_keyboard:
+3
+
+
+
+Wilfred Yeung
+  4:32 PM
+joined #introductions. Also, James Cadwallader
+ joined.
+
+
+James Cadwallader
+  8:08 PM
+Hello, I’m James Cadwallader - joining #spc-nyc this week. I'll also be in SF on Friday, so hopefully see some of you at the party too.
+About me:
+Co-Founded two startups ex nihilo valued at >$50M
+Built and managed a 90 person team across London, NYC and LA
+Secured enterprise clients into multi-million dollar contracts (Walmart, Nike, Spotify & more)
+Raised a cumulative $30M+ from institutional VC
+Built at the intersection of Consumer Software and MediaTech for the majority of my career
+I'm a generalist (non technical), but have a specialization for Growth, Sales & Ops
+Solo-Founded a Consumer AI Application last year called Caddy (it failed, happy to post-mortem with anyone who is interested)
+What I’m currently exploring:
+I’m firmly in the -1 space right now, exploring various ideas… currently drawn more towards B2B than Consumer, but not dogmatically married to anything
+Particularly intrigued by unsexy idea-spaces such as Death Care and Debt Collection
+Looking for a Co-Founder, ideally someone else who is open to exploration together
+Businesses that generate cash flow in the short term but can evolve into moonshots
+Talk to me about:
+Ideas that feel unconventional
+How to bake in distribution and growth from Day 1
+Growth Hacking (I have some entertaining stories!), Sales & Ops
+Cold outreach
+Personal interests:
+Reading
+Sending emails to strangers
+Grateful to the SPC crew for giving me the opportunity to work and explore alongside so many smart people. (edited) 
+I have a Great Dane called Daphne!
+ 
+I have a Great Dane called Daphne!
+:wave-animated:
+18
+:wave:
+9
+
+
+1 reply
+10 months agoView thread
+
+
+Wilfred Yeung
+  11:48 PM
+Hi folks! I'm joining #spc-nyc this week, and can't wait to meet everyone!
+About me:
+- Grew up in NJ, lived throughout the Northeast and for a few years out in SF
+- Spent time as an engineer, then data scientist, and later in product.  Worked at a variety of startups in enterprise SaaS and social networking
+- ~10 years as a Google PM- founded the AI / automation team and the emerging markets teams in Google Ads, built both into $XXB businesses
+- Since leaving Google 2 years ago, have been advising seed to pre-IPO companies in different industries, and recently started exploring new ideas
+- Avid real estate investor
+What I’m currently exploring:
+- Proptech: ways to support changes in regulation and unlock more affordable housing
+- Blue collar work: tech to help close the labor gap in trade services
+- Elder care: tech to drive better lifestyle choices and care for the elderly (starting with our parents!)
+Talk to me about:
+- Adtech, e-commerce, privacy regulations
+- Proptech and real estate investing
+- Ways to apply tech to non-traditionally-sexy spaces
+- Elder care, personal health, personal finance, climate tech
+- Scaling / building product orgs
+- Anything else! I'm eager to learn from everyone here
+Personal interests:
+- Soccer, biking, board games, live music, bad karaoke, 90s dance parties
+- My dream is to become a long-snapper in the NFL
+- Hiking - I too was recently in Brazil! Here's a recent shot by Iguazu Falls (edited) 
+image.png
+ 
+image.png
+:wave:
+11
+:flag-br:
+3
+
+
+
+Alex Modon
+  12:16 AM
+joined #introductions.
+
+
+Krishna Bharathala
+  8:01 AM
+Hey everyone! Excited to be part of the SPC community in NYC! #spc-nyc
+About Me:
+Grew up in the bay area and lived there until moving to NYC 3 months ago.
+Worked as a PM at Google on ads before going to business school and working on a few start-ups (Clipbook, Offsiter)
+Have experience across the climate tech space in corporate sustainability, project development, deep-tech commercialization, and government funding & incentives.
+Personal Interests
+Reading (Fantasy, Science Fiction, Biographies)
+Playing and watching chess :chess_pawn: and League of Legends
+Traveling & Adventure
+What I’m currently exploring:
+Climate resilience and adaptation in a world that is definitely getting hotter and more volatile.
+Industrial decarbonization and commercialization of novel processes
+Talk to me about:
+Aviation, carbon capture, carbon credits, climate resilience, and other things climate related!
+government & ways to modernize tech for elected officials & agencies
+Gaming (e-sports, mobile, and the future of monetization)
+photo! biking through the grand cru vineyards in burgundy
+IMG_5898.HEIC
+ 
+IMG_5898.HEIC
+
+
+:heart:
+6
+:wave:
+6
+
+
+
+Jon Tippens
+  10:35 AM
+joined #introductions. Also, Kevin Kong
+ joined. Cinjon Resnick
+ left.
+:eyes:
+2
+
+
+
+Ryan Weber
+  4:53 PM
+Hi everyone! I'm Ryan, and just joined #spc-nyc this week. Great to meet folks today and looking forward to meeting the rest of you throughout the program.
+About me:
+I grew up outside of Philadelphia, spent a few years in DC, and now have been in NYC for over a decade. Does that qualify me as an official New Yorker yet? I guess it depends on who you ask.
+I've worked in tech for the last 15+ years, mostly as a product manager (and briefly as a developer)
+In 2012, I co-founded a startup called Pickie about 10 years ago, which was a mobile commerce platform that went through Techstars NY and was acquired by Retail-Me-Not in 2014.
+I've also worked at other tech companies of all sizes, ranging the tech giants (Google, where I was the Product Lead for Google Sheets, among other things), smaller tech startups (Celonis, a late stage enterprise unicorn), to a 30 person startup I joined right out of college, and where I met 
+@Wilfred Yeung
+ (we joined SPC together)
+What I’m currently exploring:
+Wilfred covered a few of the areas we’re exploring together (see his intro for more info on the Proptech, Blue collar work, and Elder care areas we’re thinking about). Additional areas of interest:
+Better Business Intelligence: We believe there’s an opportunity to make a simpler set of BI tools (potentially leveraging LLMs) to democratize BI and open it up to a broader set of SMBs
+Childcare: How can we use tech to make childcare more affordable, safer, more transparent (in terms of what happens when the parents aren’t around), and richer / more educational for the children.
+Personal interests:
+Board games, poker and bar trivia. I like all kinds of games
+Running: Ran my first marathon last year…trying to not be so slow for the next one.
+Quantified self: I track all sorts of stuff, and am always looking for more data to collect and act upon)
+Standup and improv comedy in NYC
+Vegetarian food and restaurant recommendations
+Guatemala recommendations: I’m getting married there in less than 2 weeks!
+Talk to me about:
+Any of the previously mentioned ideas we’re exploring (proptech, blue collar work, eldercare, BI and analytics tools, and childcare opportunities)
+Spreadsheets (I may have some Google Sheets tips for you)
+Any mutually shared interests
+Anything at all, really
+Apparently, everyone is going to Brazil these days. I was there for New Years, and here is me and my fiancée at a sunrise hike that we took two weeks ago (
+@Abhi Muchhal
+, does this view look familiar!? :wink: (edited) 
+IMG_8604.HEIC
+ 
+IMG_8604.HEIC
+
+
+:wave:
+8
+:flag-br:
+2
+
+
+
+
+3 replies
+Last reply 9 months agoView thread
+
+
+Jon Tippens
+  3:08 PM
+Hi everyone! I’m thrilled to have joined last week and am looking forward to getting to know all of you.
+About me:
+I’ve developed my engineering career at Google, Cisco, and Walmart Labs, focusing on areas like web/frontend, mobile, DevOps, and more. I led mobile teams for two Area 120 projects at Google.
+I previously founded a legal tech non-profit providing online access to legal services in Baltimore, which we sunsetted in 2019.
+What I’m currently exploring:
+- Enterprise Developer Solutions: I’m delving into how LLMs can transform instrumentation in this space.
+- AI-enabled DNA Sequencing: I’m conducting UXR to understand challenges that might be addressed by biological ML models.
+- Climate Tech: Focused on citizen-science solutions for monitoring carbon stocks & emissions.
+- Observability in the Consumer Space: Exploring infrastructure work for real-time monitoring of new metrics.
+Talk to me about:
+- Co-Founder Dating: For me, 2023 was a year of learning in this area, and I’d love to share insights and hear your experiences.
+- Consumer Prop Tech: Excited about the future here, especially with technologies like LiDAR, AI, and VR/AR.
+- Cross-Platform Frontend SDKs: Keen to discuss tools like Flutter, React Native, and others based on your experience.
+- Learning Product Management as an Eng: Would love to exchange notes on this accidental yet fulfilling journey. I’ve taken a few classes recently.
+Personal interests:
+- Parenting: Our 17-month-old sets our early sleep schedule!
+- Music Production: I compose a song each month. Here’s a sample of my work.
+- Quantified Self: Curious about how others track sleep, exercise, and diet.
+Feel free to reach out for a chat, a brainstorming session, or even just to say hi. Looking forward to our collaborations and conversations!
+Note: my wife isn’t a yanks fan, she just likes NYC :smile: (edited) 
+fam.jpg
+ 
+fam.jpg
+
+
+:wave-animated:
+16
+:wave:
+5
+
+
+
+Kevin Kong
+  11:12 AM
+HelloWorld SPC, great to mingle with y'all. #spc-nyc but I go to SF every 3-6 months, so looking forward to meet everyone on both coasts! Great to see familiar faces 
+@Jamie Wong
+ 
+@Steve Wang
+About Me:
+My mission is engineering energy abundance (100x current global energy production), to feed the next 15 billion people on earth+space, enable full decarbonization, and lift up developing economies. Not-so-hot take: renewables is not the answer. If you're curious for specifics, slide into my DMs :wink: I'll also be building-in-public re: these topics over the next few months.
+Previously made data collab more delightful for boring-co's like Adobe/Snowflake/GoDaddy (Titanium AI fka hyperquery.ai, CTO/Co-Founder, backed by Khosla Ventures), powered your scooter joyrides at Bird :scooter::motor_scooter: as Head of Eng (RIP Bird stock... :sad_pepe:). Studied game theory econ at Harvard, self-taught engineer, fixed iPhones for :beer: money in college.
+Currently:
+Building, investing, & advising for the mission via C1Expeditions.com (focus areas: non-tokamak nuclear fusion, Gen IV fission, space solar, batteries, pink hydrogen)
+Advisor at a deep-tech aerospace/energy fund
+Interim CTO at GenAI startup Cofactory.ai ("venture studio on steroids")
+Accidentally building a dev shop (lol) with some killer engineers (details in the thread)
+:kr: -> :statue_of_liberty: -> BOS :four_leaf_clover: -> SF/Singapore/Indonesia  :bridge_at_night: :flag-sg: :flag-id: -> :statue_of_liberty:/ :bridge_at_night:
+Based in Long Island City, NYC. Attaching a photo from my July 4 party! :fireworks:
+Currently idea-mazing:
+Building an LLM model that could streamline nuclear reg/compliance with design partners (Goal: to make nuclear easier, faster, and cheaper to build again in the US). Idea 2: AI for materials discovery
+Open-sourcing Energy Abundance Handbook - "the Master Plan"
+Building in public; I haven't used social media since 2013 lawlz gurus, pls teach me personal branding / growth hacking! X
+Interests I never seem to have time for:
+:nerd_face: Private pilot license (WIP), amateur radio, motorcycles (you'll often find me in BK hanging out with founder friend at Tarform)
+:musical_keyboard: Live music and vinyl: classical, jazz, lofi
+:art: Sculpting, making candles.
+Talk nerdy to me about
+Energy (fusion magnets/plasma/lasers, fission safety/fuel/Gen-IV designs, mining & supply chain, battery chem, hydrogen, grid/ISO/transmission, reg)
+Aerospace (CFD, supply chain, satellites, decarbonizing flight)
+AI, Data, Security (Data Lakes/Warehouses, Airflow, MLOps, SOC2/GDPR/HIPAA, enterprise sec)
+Building high-trust, high-productivity tech teams. Culture, tools, process, incentives.
+Game theory & strategy (positioning/defensibility, negotiations, deal structuring)
+:kr::ramen::microphone: Korean/Southeast Asian food, soju, karaoke. At Bird, I've been told I throw the best corporate parties they've ever attended. Hope to host many of you :sunglasses:
+I joined SPC to surround myself with inspiring people, and I'm already stoked by my first week. Can't wait for the next few months!
+IMG_4577.heic
+ 
+IMG_4577.heic
+
+
+X (formerly Twitter)X (formerly Twitter)
+Kevin Kong (@kevinkong91) on X
+Energy x Aerospace x AI. Prev CTO @hyperquery, Head of Eng at @birdride
+:wave-animated:
+22
+
+
+
+
+
+6 replies
+Last reply 10 months agoView thread
+
+
+RVP
+  7:29 PM
+joined #introductions. Also, Hardik Vala
+ and 4 others joined.
+:celebrate:
+1
+
+
+
+Ethan Sherbondy
+  10:27 AM
+:wave: Hi fellow travelers, I’m Ethan, joining #spc-san-francisco this month to participate in this vibrant community and embark on doing my life’s work alongside you all!
+I love writing software, building creative tools, and creating a feeling of magic in this world. My interests lie in sustainability (especially around food, agriculture, and housing), computer graphics, computational fabrication, and [A|V|X]R/“spatial computing.”
+Who dis:
+Grew up in North Carolina, spent 8 years in the Boston area for undergrad at MIT and working as a software engineer (at Formlabs and then Clover Food Lab). For a while, was convinced I’d only work at places with Lab in their name. :sweat_smile:
+Spent the past 5 years living in Singapore :flag-sg: working at Stripe on APAC expansion efforts, and then a startup I cofounded during COVID called Betafi, making software for UX research.
+Transitioned our business to a bootstrapping model after a painful (but enlightening) year of dashed fundraising efforts, now exploring new directions and considering starting a new company in the domain of spatial computing.
+Definitely experiencing a bit of reverse culture shock being back in the US now, just landed a few days ago. Feel like we have a lot to learn from our friends in APAC about how to approach urban planning and hope I can contribute to efforts to transplant some of these ideas to the US, or at least empower people who are striving for this (either just in my limited capacity as a voter, or maybe as part of my next -1-0 adventure!)
+What I’m hoping to achieve in the next 3-6 months at SPC:
+Will be building a series of progressively more ambitious prototypes & applications targeting the Apple Vision Pro (& more cross-platform experiences via WebXR). The first app I’ve built is a multiplayer Mahjong game: if anyone’s a Mahjong fan, would be a blast to play IRL some upcoming poker night. :mahjong:️
+Will be exploring opportunities at the intersection of purpose (urban planning, affordable housing, sustainable ag/transport) + technical interests to try and build a venture-scale business that I could happily devote the next 10+ years of my life to.
+Excited to find collaborators and otherwise just geek out if we share some overlapping interests, or if you’re keen to play around and give feedback on early prototypes and inklings of ideas for new spatial experiences and interactions I’ll be tinkering with!
+Hobbies:
+I love rock climbing, cycling, hiking, traveling & gawking at exquisite architecture, beekeeping, gardening, eating delicious food and drinking delicious coffee with friends.
+Will be onboarding properly later this month, but will try and visit the space regularly over the next couple of weeks & looking forward to meeting you all! (edited) 
+:wave-animated:
+18
+:heart:
+1
+
+
+
+
+
+
+9 replies
+Last reply 9 months agoView thread
+
+
+PACSSU
+  1:05 PM
+joined #introductions.
+
+
+Jason James
+  9:19 AM
+Hi everyone! I'm Jason James. Myself and my co-founder (
+@RVP
+) run a stealth gen AI startup building our MVP. We're not in the #spc-san-francisco program per se, but excited to participate with the SPC community as a portfolio company.
+About me:
+Grew up in rural northern Illinois. Made my way to Chicago in my twenties. Then, the Bay Area for ~7 years. Mid-COVID I moved back home "temporarily" with my wife and liked being around friends & family, so I've been 75% IL, 25% CA for the last 3 years.
+10 years in agency-life doing traditional marketing, advertising, and brand design
+12 years in tech doing a mixture of leading design orgs (product design, brand, research, and content) and PM orgs
+Mostly done early stage roles. Employee #3 at Kin HR, #12 at Earnest, #40 at Intercom. And some later stage roles too at Thumbtack and Instacart.
+Most recently wrapped up leading the consumer business at Instacart as the VP of Product/Head of Instacart App
+Took some time off, then started Tezi (stealth startup) with RVP in December. We raised a Seed round, have hired some founding engineers, and are building the MVP.
+What I’m currently exploring:
+AI agent-based workflows
+How companies hire
+Lean people-lite ways of doing G&A
+Personal interests:
+Working through a bunch of interior design & decorating opportunities, as my wife and I just built a house and moved in
+Optimizing myself (strength training, meditation, sleep health, stretching, journaling, etc.)
+Reading (business case studies, memoirs, fiction, and social science non-fiction)
+Talk to me about:
+Culture-building
+Product design & development
+GTM & pricing
+Marketplaces
+Hiring / recruiting
+I'll try to make some SPC events when I'm in the Bay each month. Excited to be here with you all!
+:raised_hands:
+16
+:heart:
+1
+
+
+
+2 replies
+Last reply 10 months agoView thread
+
+
+Jimmy McDermott
+  8:37 AM
+Hi all! I’m Jimmy and I’m joining #spc-nyc next week. Excited to be here!
+About me:
+Born and raised in Chicago but have been on the east coast since college
+Spent the last ~7 years as cofounder and CTO of a K-12 EdTech startup called PathwayOS, which was acquired by Vector Solutions last October
+Prior to that, I ran a digital consulting agency and also wrote some iOS + entrepreneurship curriculum for high schools
+I’ve also spent some time working with Apple on their Server Side Work Group, helping foster and drive the direction of Swift on the Server (lots to share here if you’re interested!)
+Currently exploring:
+I’m super interested in understanding what industry-specific legacy tech exists that could be made easier with an API. I’m approaching this from a few different angles:
+Legacy protocols: What are the technical costs that companies have to pay when entering or moving up-market in legacy or regulated industries? I saw a lot of this in EdTech and in the last few months explored the SFTP space a bit. EDI/AS2 is also interesting to me here. (Stedi is a great example)
+API-fying the real world: I think APIs that cause something to happen IRL are really cool (see: Lob) - lots of industries still have paper workflows at their core!
+Unstructured data: So much enterprise data is in PDFs, powerpoints, etc, and we have all this great new vector/embeddings tech. How can we make that data available in workflows?
+Somewhat separately, I’m interested in tooling that companies have to build to support in-product custom reporting and custom exports
+Some stuff I’ve built recently:
+I’ve been tinkering a lot in my time off, here are some fun things I’ve built the past 3 months:
+I hacked my apartment complex intercom buzzer to make it a little smarter (blog post)
+A small app that quizzes me on poker ranks and combinations so that I stand a chance in my friend group poker game
+An RSVP system for my wedding using Remix (none of the existing platforms quite worked how I needed)
+Personal interests:
+Dogs (or my dog in particular :laughing:)
+Reading
+Hanging out in Central Park
+Talk to me about:
+Anything technical, but particularly legacy protocols/integrations
+The US education system (edtech, policy, public/private/charter, all of it :upside_down_face:)
+High school speech and debate (super dorky, I know!)
+Here’s a fun picture of my dog, Oslo, trying to figure out who that other dog in the mirror is :laughing:
+IMG_5126.jpeg
+ 
+IMG_5126.jpeg
+:wave-animated:
+17
+:confused_dog:
+7
+
+
+
+
+
+
++1
+11 replies
+Last reply 9 months agoView thread
+
+
+Raymond Miao
+  10:45 AM
+joined #introductions. Also, Bao Van
+ and 3 others joined.
+
+
+Andrea Morales
+:palm_tree:  10:38 AM
+Hey y'all. Excited to be here. Name's Andy, short for Andrea (she/her).
+About me:
+I'm from Costa Rica :man-surfing:
+That being said, I do not surf or drink coffee :disappointed:
+I'm a designer and PM, but before that, I was a filmmaker and game designer in Costa Rica.
+For the last 10 years I've worked in developer and creative tools at places like MongoDB and Roblox.
+Currently exploring:
+A visual media cybersecurity platform for consumers (with a special emphasis on nudes), called HotTake.
+A no-code AI playground that allows users to link together many gen AI tools, called BeepBoop.
+A potential climate tech software open-source multiphysics simulator for nuclear energy (no name, this one is super nascent).
+Some stuff I’ve built recently:
+www.beepboop.world - demo
+www.gethottake.com - demo
+Resin designer toys (see photo).
+Personal interests:
+Toy design :teddy_bear:
+Muay Thai :boxing_glove:
+Filmmaking :movie_camera:
+Rupaul's Drag Race :nail_care:
+Poodles (because of my dog). :poodle:
+Talk to me about:
+Nuclear energy
+DRM
+GenAI
+Cybersecurity for visual media (encryption, forensic watermarking, smart contract enabled formats, etc. etc. etc.)
+Design!!! (!)
+A photo of my poodle, and of my most recent resin toy that's going to an art exhibit.
+2 files
+ 
+IMG_7979.HEIC
+
+
+IMG_8029.HEIC
+
+
+:wave:
+15
+:heart:
+1
+
+
+
+
+
+
+9 replies
+Last reply 9 months agoView thread
+
+
+John Qian
+  10:59 PM
+joined #introductions.
+
+
+nico
+:speech_balloon:  4:01 PM
+Hi folks! Long time lurker, first time poster. Recently joined #spc-san-francisco as a member and excited to meet all of you :slightly_smiling_face:
+About me:
+Born and raised abroad, but went to college at Cal (go bears :bear:)
+Early to ETH, wrote curricula and launched various blockchain workshops and courses, e.g. https://www.edx.org/certificates/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+Jammed on operating systems at Google before diving into web3 full time
+Worked on Ashton Kutcher and Mila Kunis’ weird NFT project; they later got smoked by the SEC :woman-facepalming:
+Founded a blockchain startup
+Took a break to farm in the Mediterranean
+Joined the W24 Founder Fellowship with 
+@Perla Gamez Aguilera
+Currently exploring:
+Better search for consumer social; thinking about what the internet looks like once you can find content semantically
+“Hard and boring” problems in legacy industries, e.g. construction, logistics, procurement, etc.
+Entities and industries that produce a lot of data, but don’t make it easily accessible, e.g. federal and local governments, academic, real estate (MLS)
+Personal interests:
+:seedling: Farming/agriculture
+:cityscape: Urban planning
+:tram: Transit policy
+:woman_climbing: Rock climbing
+:boom: Why systems break down (answer is typically bad incentives)
+:cat: Cats
+Talk to me about:
+Anything crypto; worked in the industry for 7 years
+Real estate, zoning, and residential construction
+Civic and government tech
+“Boring” verticles in need of an overhaul
+The future of consumer social
+Finding a wedge
+Photos of (1) my most recent olive harvest (2) me and my pal Julius (edited) 
+2 files
+ 
+IMG_7282
+
+
+IMG_6864
+
+
+:hi:
+9
+:fire:
+11
+:cat:
+7
+:bear:
+4
+:slightly_smiling_face:
+2
+:wave:
+5
+:heart:
+1
+
+
+
+Snigdha Banda
+  5:56 PM
+joined #introductions. Also, Sam Hall
+ and Nate Harada
+ joined.
+
+
+Nate Harada
+  7:23 PM
+Hi everyone! Stoked to be here and join #spc-san-francisco this week!
+About me:
+“Applied ML researcher”  turned “Big AI Guy” now that we have to call it by a new name
+Spent my career so far integrating machine intelligence into our physical world
+Previously research scientist at Fitbit, MLE/EM/SWE at Cruise and Waymo
+Spent 25 years in the bitter cold (Chicago/Boston/Michigan) before I realized there was another option
+Got sick of starting new ML products inside existing large companies and (somewhat) rage quit my job in November
+Currently exploring:
+Broadly: using AI to reduce costs for the transition to a low carbon world
+Aerial inspection of solar panels to reduce maintenance burden for homeowners and MSB
+Fast, few shot analysis of drone footage for surveying and inspection
+Remote sensing foundation models
+Multimodal models for increasingly niche modalities
+Some stuff I’ve built recently:
+Moonshine, pre-trained remote sensing models with a friendly UI
+Zeroshot, build image classifiers with only text that deploy offline and run hella fast
+Waymo Freeway Driving, if you think accelerating onto the 280 in an EV is fun try it with nobody in the driver’s seat
+Personal interests:
+I enjoy to both cook and bake. I can crush desserts like you would not believe.
+I love music in all forms. I play guitar/bass/drums/keys and am learning to sing, and in previous life produced concerts and music. I’m def not above any genre.
+Good views are my weakness. In pursuit of this I paraglide and am currently learning to fly fixed wing aircraft.
+Tea! I don’t drink coffee and I wouldn’t say I’m a snob about tea but I would say I’m “passionate”.
+Talk to me about:
+Anytime you’ve gone “people still do that by hand???”
+Any pain points you’ve discovered in clean tech — weird thing you hate about your EV? Annoying thing about owning solar panels? Let me know!
+A clever way to create a multimodal tokenizer you’ve brainstormed
+See anything in “personal interests”, or a good Pho place in SF you’ve discovered to replace Turtle Tower (rest in peace)
+Here’s a photo of me at last year’s Bay to Breakers that made it into the paper, and a photo booth shot of me having the time of my life working at Alphabet
+2 files
+ 
+yt.JPG
+b2b.png
+moonshinelabs-ai/moonshine
+Pretrained remote sensing models for the rest of us.
+Stars
+123
+Language
+Python
+Added by GitHub
+:wave-animated:
+19
+:heart:
+3
+:raised_hands:
+2
+
+
+
+
+
+4 replies
+Last reply 9 months agoView thread
+
+
+Sean Lee
+  9:09 PM
+joined #introductions. Also, Ryan Kim
+ and 4 others joined.
+:eyes:
+1
+:awesome2:
+1
+
+
+
+Kristiana Laugen
+  1:12 PM
+Hi Everybody! Just joined yesterday, and very excited to be here!
+A bit about me....
+I was most recently running online marketing at Angi (formally Angie's List / Homeadvisor), but I came to Angi by way of an acquisition of Handy Technologies, a start-up based out of New York.  I have a strong background in growing early stage and mid-stage start-ups, as well as experience working within a large, publicly traded company. I have learned first-hand how to grow a business from the ground-up, ands have worn many hats! I have experience in P&L management, business devlopment / partnerships, product, performance marketing, and anything and everything growth-related. I know the start-up grind well - I have lived it several times over - and have seen both the successes as well as huge failures that come with the grind. I love it, and can't wait to chat with all of you! Here is my Linkedin: https://www.linkedin.com/in/kristiana-laugen-4b116047/
+Personal interests
+I am a fitness junkie (love group classes! Will try any ClassPass studio once), am obsessed with my dog (his name is Pashko! He looks like a wolf but is a big old softie), and I like to experiment in the kitchen.
+What you're currently exploring
+Right now, I am exploring buying and then growing a small business - called "Entrepreneurship through acquisition" (ETA) by those in the know :wink:. I also recently started serving on the board of a non-profit called Fortitude... and am doing a lot of ad-hoc advising and some idea exploration for starting my own business.
+Topics members can ask you about
+Home services, marketplace businesses, anything P&L management related, business development, partnerships, etc.
+linkedin.comlinkedin.com
+Kristiana Laugen - Angi | LinkedIn
+View Kristiana Laugen’s profile on LinkedIn, the world’s largest professional community. Kristiana has 7 jobs listed on their profile. See the complete profile on LinkedIn and discover Kristiana’s connections and jobs at similar companies.
+fortitudecareers.orgfortitudecareers.org
+Fortitude Careers - Opportunities in Construction for Young Adults
+Opportunities for Young Adults 18-24 in the Construction Trade
+:wave:
+20
+:sonic-running:
+1
+:heart:
+1
+
+
+
+
+
+
++2
+8 replies
+Last reply 9 months agoView thread
+
+
+Gopal Raman
+  1:59 PM
+joined #introductions.
+
+
+Jeremy Ebobisse
+  1:26 PM
+Hi everyone :wave::skin-tone-5: just joined #spc-san-francisco as a member last week - super excited to dive in and get to know you + collaborate!
+About me:
+SF transplant via DC, Duke and Portland (OR)
+Currently playing soccer professionally for San Jose Earthquakes in MLS, entering my 8th year as a pro
+Co-founded Black Players for Change, a nonprofit addressing racial inequity across the soccer ecosystem, and board member of Oakland Genesis, a nonprofit providing a pathway way to success for local youth via academic and soccer programming
+Fluent in French (born in :fr:, with a mix of :flag-cm::flag-mg:), proficient in Spanish
+Personal interests:
+Real estate / urban planning
+Nonprofit operations / development
+Sweater weather, board games & chocolate croissants
+Currently exploring:
+Developing an early stage investment playbook to open source to other professional athletes
+Identifying use cases for AI in sport across player scouting, competitive analysis and sports science
+Nonprofit partnerships targeting soccer infrastructure in urban areas 
+Identifying undervalued sports teams around the world to buy/grow
+Ask (or talk to me about!) about:
+Leadership and building cohesive teams
+Growth mindset and sustaining high performance
+Early stage investing (& marketplaces)
+UX / customer satisfaction (aggregating feedback and finding the best way to integrate into the product)
+The future of tv streaming amid the decline of cable
+A couple photos of my budding acting dream and a kid letting me know I've overstayed my welcome on his court:
+2 files
+ 
+IMG_2188.JPG
+
+
+sunset rec soccer event_23.JPG
+
+
+oaklandgenesis.orgoaklandgenesis.org
+Oakland Genesis
+Oakland Genesis
+:wave::wave::skin-tone-6:
+31
+:heart:
+1
+
+
+
+
+
+
++1
+6 replies
+Last reply 9 months agoView thread
+
+
+Snigdha Banda
+  12:58 PM
+Hi everyone! I’m Snigdha and I joined #spc-nyc last week
+About me:
+Grew up in the Bay Area, moved to NYC two years ago
+Dropped out of medical school
+Scaled operations at a conversational AI startup
+Most recently was a platform engineer at Square/Cash App - worked on internationalizing the app, improved the app onboarding experience, built out a mobile deploy system
+What I’m currently exploring:
+“Creation tools” for clinicians
+Constructing semantic maps of patients
+AI agents
+Go-to-market strategies
+Talk to me about:
+Bio + healthcare moonshot ideas
+AI + neuroscience; fintech + consumer apps
+The most interesting questions you’ve been asked / ask others
+Distributed systems + engineering challenges
+Personal interests
+Walking / running / hiking (I attempted a 100mi pilgrimage walking route in Spain last year). Always welcoming more recs :)
+Reading about professional chefs + architects + athletes + writers
+Bookmarking NYC restaurants
+(from a climbing trip! not AI edited :triumph: )
+IMG_0997 2.heic
+ 
+IMG_0997 2.heic
+
+
+:wave:
+26
+:snow_capped_mountain:
+5
+:heart:
+3
+
+
+
+
+
+6 replies
+Last reply 9 months agoView thread
+
+
+Brad Vaccaro
+  5:48 PM
+joined #introductions. Also, Jess Lin
+ and Mark Jacobstein
+ joined.
+
+
+Sean Lee
+  4:09 PM
+Hey folks! I'm Sean, joined SPC a few weeks ago. Finally getting around to posting my intro:
+About me:
+Lived all my life in NYC but just moved to SF! Hi #spc-san-francisco!
+Used to perform making live dance music / shaders with programming languages I built
+Spent last few years at Google building an internal val.town for prototyping. Incredibly powerful, security nightmare.
+Some stuff I built recently:
+:parachute: Parachute —  App that makes social media less addictive by slowing down content at the network level
+:cyclone: Converge — Figma meets Linear. Spatial, canvas-first project management.
+:curly_loop: Intero — Rewind.ai but nudges you to stay on track. Helps cultivate and preserve intentionality.
+What I'm currently exploring:
+Literal world building — (realtime, generative!)
+3rd party agents — incredibly powerful, security nightmare?
+Prototyping tools for probabilistic programs
+Poking, prodding, peering into activations
+If any of that sound interesting would love to chat and collaborate!
+Talk to me about
+Dev tooling / UX
+AI UX beyond prompting and chat
+Personal Interests
+Rollerblading — closest thing to flying IMO
+Sauna — lmk if you have recs in SF!
+:raised_hands:
+2
+:heart:
+1
+
+4:10
+Here is me about to cook my first chicken from a live poultry market. Yes it was still warm.
+58747166-3862-4BC5-A7A0-4C3E8388A5A8.JPG
+ 
+58747166-3862-4BC5-A7A0-4C3E8388A5A8.JPG
+
+
+:chicken:
+8
+:wave-animated:
+14
+
+
+
+Evi Bernitsas
+  1:12 PM
+joined #introductions. Also, Luis Voloch
+ joined.
+
+
+Kenan O'Neal
+  6:12 PM
+Howdy y'all! I'm Kenan (he/him), an Affiliate working with Andy Morales.
+About me:
+Living in the Denver area since 2020 but originally from Southern California
+I'm a backend engineer with a focus in security but I have worked in crypto, ad tech, satellite tracking, and cloud infrastructure
+Always seeking out something new to learn
+Currently exploring:
+HotTake, visual media privacy and security platform for consumers with a focus on nudes
+BeepBoop, a playground for generative AI to link tools without needing to know any code
+Media traceability
+Some stuff I’ve built recently:
+gethottake.com
+beepboop.world
+Personal interests:
+:cook: Cooking/Baking
+:moose: Outdoors - trying to go to as many National and State Parks as I can
+:seedling: Gardening - can't beat a home-grown tomato
+:construction_worker: DIY projects
+Talk to me about:
+Security/Privacy (Especially for digital media)
+DRM
+GenAI
+Rust - Because apparently I shouldn't be using C++ for embedded programming anymore
+:party_blob:
+7
+:crustacean:
+4
+:wave-animated:
+2
+
+
+
+Michael Mendoza
+  11:58 AM
+joined #introductions. Also, Scott Cara
+ and Aaron Bradley
+ joined.
+
+
+Aaron Bradley
+  12:20 PM
+Joining #spc-san-francisco this week. Looking forward to meeting y'all!
+About me:
+Grew up in small town Colorado, moved to bay area for grad school and never left
+Fascinated by the complexity and precision of well-designed things. Have you ever noticed how badass a sink faucet is?
+Physicist turned data scientist turned software engineer. Professionally, I enjoy building software systems/platforms that interface with both people and data.
+Worked at Stitch Fix until Jan of last year. Since then, I've been playing around with startup ideas, getting in shape, and trying to invest in areas of my life that I've neglected until now.
+Currently exploring:
+How to put people back in the driver's seat wrt their online data. Working on a startup called Fondu.
+Svelte
+Knife sharpening
+Some stuff I've built recently:
+Lots of backend infrastructure, microservices, data pipelines, UI for Fondu
+C++ / OpenGL physics engine (it's really just a bunch of balls that bounce around the screen, but I'm calling it a physics engine)
+3d-printed rig to hold my sharpening stones
+Personal interests:
+Learning new things. There's usually an activation barrier to get over, but once that happens, I enjoy diving deep on a topic.
+Building things
+Beer
+Talk to me about:
+AWS
+Knurling
+Data infrastructure
+NextJS/react/tailwind
+IMG_6033.JPG
+ 
+IMG_6033.JPG
+:wave-animated:
+9
+:dancing_hotdog:
+3
+:heart:
+1
+
+
+1 reply
+8 months agoView thread
+
+
+Eddie Landesberg
+  12:26 PM
+joined #introductions.
+
+
+Eddie Landesberg
+  1:10 PM
+Also excited to be joining #spc-san-francisco this week and meeting some of you!
+About me:
+Grew up in the suburbs of NYC. Moved to SF two years out of college; I don't intend to ever move back east :laughing:
+Have a 15 month old :baby:
+Last worked in ML / Data science at Stitch Fix on advertising and personalization problems
+Smitten with the natural beauty of California.
+Currently exploring:
+Working with 
+@Aaron Bradley
+ on empowering consumers on the internet to get a lot more value from their data at a company called Fondu.
+Language models in the context of recommendation systems.
+Actively learning about branding, communication, and fundraising.
+Interests:
+Exploring beautiful places in the western united states.  I :heart: the less crowded areas in the sierra nevada.
+Physical health.  Making my body more resilient through thoughtful exercise.
+Barefoot lifestyle.
+Classic cars.
+Enjoying time with friends and family.
+Topics I like talking about:
+Causal inference.
+The state of consumer data ownership.
+Framing business and technical problems.
+Good software design.
+Gov't policy.
+Things that are likely to increase P(success) for Fondu :slightly_smiling_face:
+(edited)
+15E2EE2B-31AE-48DA-9DDD-663E54ED688B.JPG
+ 
+15E2EE2B-31AE-48DA-9DDD-663E54ED688B.JPG
+
+
+:wave-animated:
+10
+:heart:
+1
+
+
+
+
+3 replies
+Last reply 8 months agoView thread
+
+
+Richard Kennedy
+  3:04 PM
+joined #introductions. Also, Maximillian Rainey
+ and 2 others joined. John Wu
+ left.
+
+
+Scott Cara
+  1:51 PM
+Hi all! Excited to join #spc-nyc this week as an affiliate with 
+@Angelica Schwartz
+. I am visiting SF right now and at the SPC office for the first time today and tomorrow so don't hesitate to say hello!
+About me:
+Grew up in northeastern Pennsylvania (small town called Conyngham). Moved to NYC directly out of college and, for the most part, haven't left
+Did my undergrad at Duke in CS (with ange, which is where we met!) and mathematics
+Started my career doing mgmt. consulting at Bain & Co., then moved into finance / private equity at Sycamore Partners, focused on retail / consumer investing, with a short hiatus for an MBA at HBS
+While I'm not a parent, I have 19 nieces and nephews (age range: 0-21) so always down to swap funny children stories
+Currently exploring:
+Lots of things with 
+@Angelica Schwartz
+!
+Focused on payments now, but in general, B2B application software
+Interests:
+Supporting / working with small businesses (grew up working at my family's small grocery store)
+Finance nerding-out
+:books: Political biographies
+:rugby_football: Sports, in particular rugby and F1
+Fantasy storytelling (LotR, GoT, MCU)
+:dog: Dogs - just got one and I'm obsessed
+Talk to me about:
+Non-technical business skills, challenges, people, etc. (here to help if I can!)
+Payments
+E-commerce and DTC
+BainBain
+Bain & Company
+Bain & Company is a top management consulting firm. We advise leaders on strategy, marketing, organization, operations, IT and M&A, across all industries and geographies.
+sycamorepartners.comsycamorepartners.com
+Private Equity |  Sycamore Partners
+Sycamore Partners, a private equity firm specializing in retail and consumer investments, partners with management teams to improve operating profitability
+:wave::skin-tone-3::wave:
+8
+:raised_hands:
+4
+:muscle:
+5
+:wave-animated:
+2
+:heart:
+1
+
+
+
+Luke Mercado
+  2:02 PM
+joined #introductions. Also, Mike Hinckley
+ joined.
+
+
+Muneeb Rasool
+  8:48 PM
+Hello everyone! :wave: Thrilled to join the #spc-san-francisco community and eager to connect with all of you!
+ About Me
+Recently transitioned out of Meta; focused on AR, VR, LLMs for dev tools, hardware design, CVML algorithms (passthrough, hands tracking, eye tracking etc.)
+Founded two startups previously, currently exploring venture-scale opportunities.
+10 years in product management.
+Degrees: Undergrad in quantitative economics (Minnesota State), Grad in software engineering and management (Carnegie Mellon).
+Bay Area transplant, home base in Seattle, grew up in Pakistan.
+Interests
+Fascinated by protocols' impact on social efficiency and streamlining social contracts.
+Interested in the role of abstractions in productivity, reducing complexity, and lowering barriers across fields.
+Concerned with productivity loss due to information overload.
+I read a ton of history, especially Neolithic and Bronze Age eras of Near East and South Asia.
+I also enjoy Persian and South Asian prose especially it's structure and symmetry.
+Exploring
+Software Generation Platform for Product Teams (Status: Active, piloting beta)
+Using LLMs for rapid prototype building.
+Aims to shorten product discovery cycle by facilitating rapid team alignment.
+Deep into customer / persona interviews.
+Sensor-Based Hardware (Robots) Design (Status: Backlog)
+Issues with over-/under-specification affecting ML algorithms.
+Exploring physics simulations for sensor configuration iteration.
+Aims to accelerate development cycles and mitigate risks early.
+Not an active exploration, informed by my work at Meta, passively reaching out to robotics engineers and architects to learn more.
+Topics Members Can Ask Me About
+AR & VR markets, hardware design, content creation in AR and VR.
+Generative models & Dev Tools, product management.
+Navigating the American immigration system as an entrepreneur.
+Picture: (This is me disappointed as I got an immediate headache 2 minutes into trying AVP)
+Muneeb - AVP.png
+ 
+Muneeb - AVP.png
+
+
+:wave-animated:
+13
+:goggles:
+1
+:raised_hands:
+1
+
+
+
+
+5 replies
+Last reply 8 months agoView thread
+
+
+Mike Hinckley
+  1:03 PM
+Hey all, I’m super excited to join SPC SF :wave:
+I apologize in advance that I won’t be able to attend All Hands today as I have a pre-existing commitment, but I’m excited to connect with you in the coming weeks!
+About me
+Built profitable bootstrapped creator biz
+Former marketplace PM at Airbnb
+Former growth investor at General Atlantic
+Former advisor in Obama Administration
+Personal interests
+Self development, executive coaching, and Conscious Leadership Group
+History books.  Recently: spies and spycraft, great explorers, and Robert Caro LBJ books
+Getting into a daily writing habit
+Space exploration & industries
+What you’re currently exploring
+AI-powered job search, interviews, and HR
+AI-powered marketplaces
+Elder & death tech
+Ask me about
+Marketplaces
+Interview prep
+Generating passive income $$$
+Having kids while founding company
+Pic of me and my daughter Maya :slightly_smiling_face:
+image.png
+ 
+image.png
+
+
+:heart:
+17
+:wave:
+7
+:wave-animated:
+3
+
+
+1 reply
+8 months agoView thread
+
+
+Richard Kennedy
+  2:07 PM
+Hello everyone! I just onboarded to SPC NYC yesterday, excited to join the community!
+About Me
+Recently left Stability AI, where I worked on infrastructure, scaling, APIs, and safety.
+Previously worked at Wing (Alphabet’s Drone Delivery Bet), where I built out their enterprise platform. Also spent time working at Bloomberg on large scale distributed infrastructure.
+I graduated from Columbia University (BA), with a degree in computer science! I did research on computer vision and autonomous drones there.
+I’ve spent the past 10 years in NYC, primarily grew up in CT, but lived in 5 different states and 3 different countries when I was young.
+Interests
+I’m very interested in all things philosophy, especially philosophy of mind
+I’m also interested in artificial intelligence,  AI safety, and fighting deep fakes.
+I can pretty much nerd out over everything though
+Exploring
+I’m currently exploring generative AI use cases in the aesthetic and health space. I’m very interested in virtual try-ons, virtual procedures, etc.
+Topics Members Can Ask Me About
+Generative AI Image generation use-cases and capabilities
+AI Safety, especially with respect to AI deep fakes
+Running AI systems in realtime
+Drones, drone regulations, complexities in autonomous aerial systems
+Building APIs and platforms
+Picture of my family’s dog! We got him when I started high school.
+IMG_0248.jpeg
+ 
+IMG_0248.jpeg
+
+
+:heart:
+6
+:wave:
+6
+:wave-animated:
+2
+
+
+
+Michael Mendoza
+  3:07 PM
+Hi everyone. I'm Michael, and I'm working with 
+@Andy
+ Morales as an affiliate.
+About me:
+Grew up in SF and Washington DC, but currently live in London right now. Planning to move to NYC at the end of May.
+I'm finishing a PhD in ML doing medical imaging research at Imperial College London.
+I'm a physicist turned electrical engineer turned software developer/machine learning engineer and researcher
+For the last 15 years, I've worked in a variety of fields including radar, atomic physics, medical imaging, cryptocurrency, game dev, 3D graphics, data science, ML/AI, and web dev
+I used code neutral networks from scratch in the Stone Age of ML (mid 2000s). So, I am so grateful for the ML tools and libraries we have now.
+I once lived on only rice, and beans for several months to save money, while backpacking around the world.
+Currently exploring:
+Interactive ML playgrounds for weaving genAI models and tools together.
+Visual media authorship.
+The use of diffusion models and vision transformers in ML for generative AI
+Some stuff I’ve built recently:
+I've built a lot of data pipelines for AI, server/client systems for interacting with ML models, systems for fine-tuning ML models
+Beepboop - An interactive playground tool for generative AI (www.beepboop.world)
+HotTake - An app for creating, distributing, tracing, and safely sharing your images (www.gethottake.com)
+Personal interests:
+Playing/composing music on guitar/piano/sax
+Dancing either salsa, bachata, or swing. I also danced on a ballroom dance team in uni. And choreographed wedding dances in a previous life.
+Traveling. I've lived in 5 countries and have traveled to 50+. I'll be in Singapore in May to present my latest research at an MRI conference. (Any advice for visiting Singapore?)
+Learning languages. I think languages are a great way to learn about another culture and way of life. I'm fluent in three and have dabbled in 5 others.
+Financial economics, and history (love reading biographies of interesting people in history)
+Running and Biking. Currently training for a marathon in Nov in Athens, Greece.
+Helping others. Let me if there is any way I can help with the eclectic knowledge and skills I have
+Talk to me about:
+Machine Learning, GenAI
+Frontend Dev with ReactJS/Svelte
+Product design and development
+Exploring new ideas
+Picture from my trip to Stockholm last year.
+IMG_20230720_141932.jpg
+ 
+IMG_20230720_141932.jpg
+
+
+:wave:
+13
+:pepepray:
+2
+:wave-animated:
+2
+
+
+
+Luke Mercado
+  9:32 PM
+Hey everyone, I’m looking forward to kicking around SPC in SF and figuring out what my next chapter is going to be.
+About Me
+SF Native, avid reader, bit of a non-traditional youth (homeschool, charter schools, etc)
+Self taught programmer, turned co-founder & CTO at www.daybreakhealth.com (YC S20, Series B), left Daybreak in Nov ’23
+5+ years actively coding, 3+ years actively managing / leading
+Personal Interests
+Fitness - Running, Lifting, Skiing, Hiking
+Weird Niches - Economics, Geopolitics, Military History, Pax Americana
+Professional - Management theory, engineering org design, Eng + Product integration
+Currently Exploring
+How not to go broke in July
+Discovering, modeling, and structuring lifestyle businesses
+Identifying problem(s) to solve with businesses
+Talk to me about
+The intersection of Product & Engineering
+The cost of software and how to think about calculating the cost of software
+Engineering management and leadership
+The lifecycle of startups from 0 to 1 and how your role as a technical founder could/should evolve. (I have minute to minute data of my work at my last company)
+basement_professor_extract.png
+ 
+basement_professor_extract.png
+
+
+:wave:
+11
+:wave-animated:
+5
+:heart:
+1
+
+
+
+Maximillian Rainey
+  6:29 PM
+Hi SPC Community,
+I'm building Borderless :globe_with_meridians:, the global citizenship platform that empowers individuals to acquire, manage, and maximize the benefits of multiple passports. We're currently exploring solutions to solve citizenship-by-descent for the growing population of first, second, and third generation Americans.
+Today we can screen you for citizenship eligibility to any country in the world, and share back the results (with guidance) in a concise manner.
+About me:
+I’m a British/American global citizen based in San Francisco :gb:/:us:
+I’ve been building community for entrepreneurship focused ecosystems for 8+ years
+Previously I served as founding creative director with SHACK15 in San Francisco
+Interestingly:
+Every year my friends and I light a laser rainbow over San Francisco for Pride weekend :rainbow::sparkles:
+In another life I taught Rihanna how to snowboard in Aspen (she’s lovely)
+A lifetime ambition of mine is to create the first Earth passport
+If any of this sounds interesting to you, or if you're curious about your own relationship global citizenship – let’s chat – I’m a fast learner, I’m here to build, and I’ll need as much help as I can get.
+Looking forward to meeting you! :pray::skin-tone-3: (edited) 
+S15_08-12_@maximillian-1410014-2.jpg
+ 
+S15_08-12_@maximillian-1410014-2.jpg
+
+
+:wave:
+17
+:tada:
+7
+:wave-animated:
+4
+:raised_hands:
+1
+:heart:
+1
+
+
+
+
+4 replies
+Last reply 8 months agoView thread
+
+
+Tomás Hernando Kofman
+  7:13 PM
+left #introductions.
+
+
+Evi Bernitsas
+  4:24 PM
+Hi everyone! Excited to be building as part of SPC - let's grab coffee!
+About me
+ex-Humane Systems Engineer (2y) - built their power-efficient hand detection pipeline, and the always-on sensor algorithms / sensor calibration.
+ex-Apple Darwin Kernel Engineer (4y) - Kernel Security, Virtual Memory… kernel stuff.
+CMU Electrical & Computer Engineering w/ Master’s Research in Human-Computer Interaction
+https://evi-b.com/
+Personal Interests
+Reading books about fairies and magic
+Cooking
+NYC Sample Sales
+Currently Exploring
+Ambient Computing
+Collaborative Computing
+Talk to me about
+Breaking down the barrier between humans and devices
+AI personal computing devices
+Human-Computer Interaction
+Anything, I don’t bite
+Picture
+Won the Saturday Night Live lottery for the Justin Timberlake & Dakota Johnson show this season!
+Screenshot 2024-03-23 at 5.18.05 PM.png
+ 
+Screenshot 2024-03-23 at 5.18.05 PM.png
+:tada:
+11
+:wave:
+20
+:partyparrot:
+8
+:fire:
+4
+:wave-animated:
+5
+:raised_hands:
+3
+:heart:
+1
+
+
+
+
+
+
++1
+14 replies
+Last reply 8 months agoView thread
+
+
+Kai Mou
+  11:02 PM
+joined #introductions.
+
+
+Kai Mou
+  11:21 PM
+Hi everyone! Happy to join this community. I'm an affiliate with 
+@Muneeb
+About me
+7 years as a SWE. Worked on two startups from FinTech to Pet Insurance to HR Tech.
+Currently at Meta working on Ray Ban Metas + previously Insta.
+California native - Los Angeles though! Only in the Bay Area for 2 years.
+Personal Interests:
+Fishing - I love fishing (saltwater or freshwater). Recently bought my own Kayak to be able to get out on the Bay + the nearby lakes in the Bay Area.
+Poker - play twice a week at the Bay 101 in San Jose. Played since I was 18 since that's how I got my first job!
+Music - Grew up with piano and performed in an acapella group for about 3 years in college. Nowadays, I try to re-play some of the classical piano pieces I enjoyed as a child.
+What you're currently exploring:
+Software Generation for Product Teams (Status: Active)
+Uses LLM to convert from natural language to code.
+Aims to solve the "communication" problem between product managers and other stakeholders.
+Topics I love talking about:
+New Tech Frameworks
+System Design
+Poker
+Fishing
+Picture: (Me in Australia to find Nemo)
+434217768_1350565302275131_1221068532025243282_n.jpg
+ 
+434217768_1350565302275131_1221068532025243282_n.jpg
+
+
+:raised_hands:
+12
+:wave:
+5
+:wave-animated:
+4
+:heart:
+1
+
+
+
+
+
+4 replies
+Last reply 8 months agoView thread
+
+
+Mitra Lohrasbpour
+:speech_balloon:  5:34 AM
+left #introductions. Also, Rob Haisfield
+ and 2 others joined.
+
+
+Yoav Lurie
+  2:46 PM
+Hey SPC! :wave: Super excited to join the #spc-san-francisco community. Looking forward to meeting many of you here and in NYC!
+ About Me — LinkedIn
+Exited founder; built Simple Energy a ClimateTech SaaS company providing energy efficiency, demand response, and customer engagement to electric and gas utilities from start to >$75mm in revenue.
+Multiple M&A transactions: Acquired 3 companies and merged with a fourth, rebranded resulting company as Uplight. Integrated companies to achieve $10mm annual EBITDA run rate.
+Sold Uplight to Schneider Electric, AES, and Coatue for $1.5bn.
+Chairman at WattBuy. Invested in 25+ companies and funds.
+Born in Israel; grew up in LA; undergrad at Duke; lived in DC, NY, and CO.
+Interesting fact: Spent most of the pandemic in New Zealand and hold NZ permanent residence.
+Currently splitting my time between SF and Boulder, CO, where my family is and where I built the companies.
+Interests
+Building — after a few years investing (mostly in climate and SaaS), I’m excited to get back to building. Also building physical stuff with 3D printing, wood, lego, and large pieces of metal.
+ClimateTech, EdTech, and other highly-regulated or hard-to-enter spaces.
+Bikes… starting a new Burning Man camp called “Maybe Bike Repair”
+Exploring markets where low-margin services businesses could be replaced wholesale by AI
+Exploring
+Highly automated / AI-driven financial (GAAP) accounting firm to replace existing audit firms
+Current models are highly manual, w/ high-cost labor and low margins (30%)
+Exploring ways in which AI/ML can automate parts of (or the whole) audit workflow
+Exploring niches and beachheads in which to initially test
+Digging into the regulatory requirements and structural impediments to taking humans out of the process.
+Doing customer development to understand the feasibility of replacing a brand-focussed firm with an upstart.
+AI-powered Customer Engagement Platform for Electric and Gas Utilities
+Would compete directly w/ Uplight; using AI on the energy data analysis and customer engagement fronts.
+Focus on electrification and demand management (virtual power plants).
+Looking for potential cofounders with whom to build.
+Social Emotional Learning (SEL) app for classrooms and home settings
+Early market exploration
+App for elementary school teachers to provide 10-min morning SEL kickoffs to promote self-regulation and mindfulness
+Home version provides a morning and evening meditation session for kids.
+Topics Members Can Ask Me About
+ClimateTech, energy markets, utilities, smart home technologies. Batteries, EVs, renewable energy, and home electrification.
+Company culture building, M&A, Fundraising, Board development, product management, go-to-market, and new product introduction.
+B2B and B2B2C. B2B sales team design, comp, hiring and motion (Challenger Sale FTW). 
+New Zealand, Burning Man camps, Colorado, and Lego.
+Picture: Me and my kids on the beach by our former home in Auckland, New Zealand. (edited) 
+:raised_hands:
+15
+:wave-animated:
+19
+:fire:
+6
+:heart:
+1
+
+
+
+
+
+4 replies
+Last reply 7 months agoView thread
+
+
+Andrew Chan
+  12:52 AM
+joined #introductions. Also, jeff shaw
+ and 5 others joined.
+
+
+jeff shaw
+  4:31 AM
+Hi everyone!!
+About me
+Rural Minnesota -> Shanghai  -> San Francisco
+Asian redneck -> philosophy student -> hackathon bullshitter -> design nerd -> regular nerd
+Day jobs: Mercedes-Benz R&D -> Cruise -> Snowflake
+Interests
+Everything, but especially pizza and clothing
+Dieter Rams, Kanye West, Francis Mallmann, Plato
+Tom Brady, Christian Dior, Ray Dalio, Benjamin Graham
+What i’m exploring
+Real time soft body fabric simulation on the browser
+3d user interfaces
+Improving realism of 3d avatars
+Ask me about
+Clothing design, digital garment construction, traditional tailoring
+Enterprise software and developer tooling
+Practical applications of wasm, webgpu, siggraph papers
+The meaning of life
+Picture
+Waiting for food, gf date night
+Pizza, various types
+Please reach out if you’re interested in jamming or just saying hello! My calendar is open. (edited) 
+2 files
+ 
+2866_00087120.tif_2866_00087122.jpg
+
+
+IMG_9719.HEIC
+
+
+:wave:
+23
+:rocket:
+5
+
+
+
+
+
+6 replies
+Last reply 7 months agoView thread
+
+
+Adam Szefer
+  3:23 AM
+joined #introductions. Also, Dylan Itzikowitz
+ joined.
+
+
+Andrew Chan
+  3:46 PM
+Hey everyone! Excited to join SPC SF!
+About me
+Graduated UC Berkeley in 2019, did software at Figma for almost 5 years
+Worked on a mix of product and engine projects, in the editor, renderer, file format, mobile app, multiplayer, etc.
+https://andrewkchan.dev/
+Interests
+Computer graphics/vision, esp. real-time rendering and simulation for games, inverse rendering
+Generative AI applications, esp. LLM agents, creative tooling with generative AI
+Machine learning, esp. AI alignment and ML engineering
+Web technology, esp. WebAssembly/WebGPU
+Language learning - recently spent a year getting better at Chinese
+Exploring
+Gaussian splatting, differentiable rendering, other topics in graphics
+Reviewing all the ML that's new and that I forgot since undergrad (starting with the fast.ai course)
+Ask me about
+WebGL, WebAssembly, and graphics tech
+Random challenges of building a performant, collaborative design tool on the web
+:party_blob:
+16
+:fireball:
+4
+:wave-animated:
+10
+:heart:
+1
+
+
+
+
+
+
+5 replies
+Last reply 7 months agoView thread
+
+
+Shruti Tibrewala
+  11:46 PM
+joined #introductions.
+
+
+James Cross
+  6:14 PM
+Hey, all! Super excited to join the SPC SF community, as an affiliate with 
+@Charlie Stigler
+.
+About me:
+I’m originally from :gb: (Liverpool), spent a few years in :flag-ca: (Victoria), and moved to :us: in 2017 (just applied for my citizenship!)
+We sold an online learning company to Workday in 2015, and I spent eight years there as a product strategy leader
+I took a travel sabbatical (:fr::it::flag-ch::gb::flag-au::flag-id:) after leaving Workday, and am excited to be building again!
+Personal Interests:
+ :weight_lifter: Weightlifting
+:loud_sound: Electronic music (deep/tech house, trance)
+:fish_cake: Japanese food (izakayas, okonomiyaki, desserts)
+⠀
+Currently exploring:
+I’m working with 
+@Charlie Stigler
+ on AI for leadership development
+Things I love talking about:
+Health, fitness, biohacking
+Large enterprise SaaS
+HR, workforce, learning, edtech software
+GTM, product marketing, positioning
+Picture: Japanese dessert joy
+IMG_0637.JPG
+ 
+IMG_0637.JPG
+
+
+:heart:
+5
+:wave:
+20
+:raised_hands:
+1
+
+
+
+2 replies
+Last reply 7 months agoView thread
+
+
+Dimi Kellari
+  12:07 PM
+joined #introductions.
+
+
+Tom McGrath
+  1:33 PM
+Hi! Really excited to be joining in SF, looking forward to getting to know you all.
+About me
+I’m from the UK, currently splitting time between SF and London but moving this year.
+I spent the last 4 years in research at DeepMind working on all sorts of general intelligence things: LLMs, embodied agents, evaluation & interpretability (I think this paper on what AlphaZero knows is the best thing I did at DM).
+I’ve been on sabbatical since September and went climbing in the Himalayas and learnt to ski in Canada.
+Interests
+Outdoor sports: skiing, climbing, hiking, getting back into trail running.
+Physics: I’m intermittently trying to self-study up to QFT and GR.
+What I’m exploring
+My main focus for exploration right now is applied interpretability.
+I have a big list of ideas - would love to chat about anything on here.
+Ask me about
+AI, especially transformers and interpretability.
+General guesses about AI over the next few years.
+Success/failure modes for research organisations.
+I’d love to learn about
+Robotics! I'd be interested in joining/starting a study group on this.
+How to think about all the non-technical parts of building a startup.
+:heart:
+13
+:wave:
+17
+
+
+
+
+
+
+6 replies
+Last reply 7 months agoView thread
+
+
+SPC bot
+  4:12 PM
+joined #introductions. Also, Peter Shalek
+ joined.
+
+
+Luis Voloch
+  4:52 AM
+Hi everyone! Excited to join SPC. 
+@Mark Jacobstein
+ (#spc-san-francisco), Sahil, and I (#spc-nyc) started Jimini Health recently, where we have created the best therapy experience ever,
+with the most experienced clinicians out there
+with a holistic approach to it (where patients can choose broader health and mindfulness techniques for their clinician to work with them on)
+very goals driven, with clear objectives for change (never again talking in circle for weeks)
+and allowing patients to receive and gain skills every day,
+more cost effective than private practice therapists (that can cost 200-300/hour/week)
+It's therapy like we and all of our patients always wanted! We have a small number of slots left for our Q2 patient cohort, in case anyone here needs, please be in touch (We are in CA, CO, Fl, PA; not NY yet). If you are interested in trying it out, I’m happy to hop on a call myself to answer any question. Feel free to pick a time here: https://calendar.app.google/r5drmkPzyQ6nBnVv8
+My background:
+Founded an AI/cancer company called Immunai before (where I worked with Mark) valued at over 1 bliion
+Faculty at Stanford (where I teach about AI)
+Previously at Palantir, and MIT BSc/MSc/Phd dropout.
+and Mark's / Sahil's background is even better!
+Excited to meet you all soon. (edited) 
+JIMINI
+Jimini Health | Therapy Beyond the Session
+Jimini health equips you with enduring techniques for anxiety management, getting you closer to living your best life.
+Let Jimini help you manage anxiety beyond the session. (58 kB)
+http://jiminihealth.com/
+
+ImmunaiImmunai
+Immunai - Reprogramming immunity
+Written by
+Immunai
+Time to read
+Less than a minute
+May 11th, 2022 (43 kB)
+http://immunai.com/
+
+:wave:
+12
+:blue_heart:
+2
+
+
+
+2 replies
+Last reply 7 months agoView thread
+
+
+Adam Szefer
+  12:19 PM
+Hi! Really excited to join the community as an affiliate of 
+@Agnieszka Szefer
+!
+About Me:
+Born and raised in a small village in Poland, studied in the UK. Regularly visiting my sister with whom I work with in SF.
+Studied computer science at King’s College London.
+Gained professional experience at Bloomberg, where I was part of the teams building Forex Exchange and a Core Infrastructure Team handling all of Bloomberg’s hundreds of billions of requests per day.
+Together with a Stanford Professor I co-founded Gyfted - a talent marketplace matching people with jobs based on personality and culture fit.
+What I’m working on:
+Currently exploring ideas in the sustainability space such as new product passport requirements that mandate companies to report the carbon footprint for each product they create
+At the same time researching how to help SMBs be more innovative and strategic, eg. by introducing AI
+It’s already our 3rd idea this year, we’ve conducted user research for:
+an AI-driven trip itinerary planner with a social recommendation aspect
+a personalized AI math tutor for primary school kids, using their favourite character personas like Harry Potter. We used 11labs to clone the voice and GPT4 for content generation
+an AI-driven financial advisor for people in debt
+I can help with:
+Full stack-engineering
+SEO, Programmatic SEO
+Hiring in CEE
+Personal interests:
+Cars - I can recognize any sport engine by the sound it makes, test me out :D
+music - I play the piano and saxophone
+books - recent favorite book is “Educated” by Tara Westover
+I’m in SF for 2 weeks so hit me up for an in-person coffee! Looking forward to meeting you all!
+:wave-animated:
+10
+:fireball:
+4
+:party_blob:
+2
+
+
+
+Ayan Dutta
+  11:00 AM
+Hi SPC - ReIntroducing myself as I’d love to meet more members. I’ve been in SPC for a year. Joined via the Founders Fellowship
+About me
+Grew up in Kuwait & Australia. Studied Maths at uWaterloo (and I use UK english :P)
+5 years in predictive modeling (Life insurance)
+Career changed → 5 years in Go To Market (open source DevTools) at mongoDB. I was the first rep selling Atlas, and broke us into NVIDIA, Adobe, Unity, Rivian. Closed $5m, trained +300 Reps.
+What I am working on
+Exploring ideas in vertical SaaS
+training simulations for various functions (Sales, HR, and people-related jobs)
+digitization and LLMs in supply chain and logistics
+I’ve written a lot about ideas I’ve explored (my notion has memos, post-mortems, mockups etc)
+Meeting SPC members and learning about new problems and domains
+What I can help with
+Founder journey - idea exploration, handling failure, lessons learnt, customer outreach and customer discovery, staying motivated and resiliency
+Selling to engineers and Go To Market (getting people to open up, Unique outreach strategies, ICP segmentation, navigating the buying lifecycle, copy writing, hiring, metrics)
+Databases (noSQL and SQL)
+Supply chain, payments, logistics, sales-tech, mar-tech
+Finding or Buying your first watch (timepiece)
+Personal interests
+I Write & Read a lot (bios, business, stoicism)
+Playing sports (basketball, tennis)
+Watches and travel
+Recording funny videos of my My 3 month old babayy (happy to post if there is enough interest :stuck_out_tongue: )
+:wave:
+16
+:flag-ca:
+3
+
+
+
+
+4 replies
+Last reply 7 months agoView thread
+
+
+Arda Kara
+  10:29 PM
+Hello SPC – Appreciate the warm welcome so far and excited to meet others soon!
+Exploring digital-twins for navigating health services – 
+@Shruti Tibrewala
+ and I think there is growing awareness in the US that the fee-for-service healthcare system is most useful when problems become acute but everyone is on their own for prevention and risk mgmt. HSAs, price transparency + CURES acts (your med data is now yours vs providers’) and LLMs for unstructured data have brought an inflection point. We dream about a digital twin of health data+models to both be the starting point (from a new need to highest ROI interventions) and the destination (a compounding data vault) of all unsolved patient needs outside of the hospital.
+Targeting MSK as the beachhead – the incentives of the sickcare system don't favor this so we need to establish an alternative outside of it. Joint health is one of the largest spend areas, with terrible outcomes in the default care paths (with cookie cutter PT and/or unnecessary surgery) and clearly better but currently expensive approaches only available to top athletes or execs. These are a handful of out-of-network providers that are often booked out by top teams or established patients for many months and we’re looking to digitally scale access to as the starting point.
+Most recently, spent a decade at Palantir – joined to build a civilian business, which was consulting-y for a while but productized initial successes around data+model integration into a platform for building digital-twins to assist operational decision-making in less tech-savvy domains like energy, industrials and supply chains. With COVID's shakeup and the ZIRP boost we were able to go public and eventually get to GAAP profitable so I'm happy that I stayed through the dark days until mission accomplished, but less so that I’m now 35.
+Before that I founded a YC S12 company that became Palantir’s first acquisition, and before that I built a primitive version of pre-Siri voice control at Stanford AI/HCI labs first, then launched it in Android at Google.
+I'm originally from Turkey and live near Sutro Forest / Twin Peaks. I talk more about video/board games than I actually get to play but always looking for an opportunity to change that. If you have MSK/health stories or just want to say hi, please do not hesitate!
+:wave::wave::skin-tone-3:
+20
+:open_mouth:
+3
+
+
+
+
+
+5 replies
+Last reply 7 months agoView thread
+
+
+Shruti Tibrewala
+  1:00 PM
+Hey SPC! Great to meet you all. I’m joining as an affiliate of @Arda Kara.
+I’m a healthcare and health data nerd :nerd_face:  and generally excited about helping people make more of their data and evidence :chart_with_upwards_trend:. I’m hoping the time is right now to finally solve for the patient at the center of care.
+I’ve spent my career in healthcare and health tech companies of various sizes, leading GTM / commercialization, ranging from a seed stage AI-software company to Flatiron Health, where I learnt a ton about how messy and challenging health data is but the really cool stuff we can learn from it.
+I’m born and raised in Mumbai, India but have been a Bay Area native all my adult life and love it here. I live in mission bay, so you may see me walking my Aussie :walking-the-dog: near the SPC office or grabbing coffee at Golden Goat.
+Feel free to hit me up if I can help with anything healthcare / life sciences! I’d also welcome any convos on what we’re building, life in SF or India (especially in the context of aging parents) or general banter.
+:wave::wave::skin-tone-4:
+15
+
+
+1 reply
+7 months agoView thread
+
+
+Isabella Farley
+  4:51 PM
+joined #introductions. Also, Isaac Kang
+ joined.
+:wave-animated:
+2
+
+
+
+Robin Lobo
+  4:40 PM
+Hi SPC! Thrilled to be here and eager to connect with all of you! :relaxed:
+About Me:
+Born and raised in Mumbai, India
+Started my career in banking but soon swapped spreadsheets for an entrepreneurial cape
+Built and sold Amazon India's leading eyewear brand
+Founding member of FalconX, an $8 billion digital asset brokerage
+What I’m working on:
+Recent Projects —
+Developed a tool to help management consultants use LLMs for efficiently extracting insights from expert network calls (GLG, AlphaSights, etc.)
+Collaborated with Harvard Business School to develop ChatLTV, a Slack-based chatbot that serves as a faculty co-pilot, trained on the school's most popular course content. You can learn more about this project here
+Current Work —
+Exploring opportunities at the application layer of the AI stack, particularly at the intersection of AI and spirituality with a focus on the Indian consumer
+Working on an AI synthesis tool for Universities to transform research papers into more accessible Op-eds and press releases, broadening their reach and impact
+I run a weekly newsletter called Lumian with 20K+ subscribers focused on the LLM space
+Interests:
+Value Investing: Started investing in the stock markets at age 18 (compound interest is truly the eighth wonder of the world!)
+Outdoor Sports: I enjoy tennis, soccer, running, golf — always up for a game!
+Music: Classically trained in piano and guitar
+Reading: Recent favorites include "Not the End of the World" by Hannah Ritchie and "The Coming Wave" by Mustafa Suleyman
+What I can help with:
+Founder Journey: Idea exploration and validation, navigating failures and setbacks with actionable lessons
+Go-To-Market and Fundraising: Consumer-focused GTM strategy, refining pitch decks narratives
+Building Operations in India: Connecting with potential partners in India, advising on best practices for managing and integrating Indian engineering operations
+I'm super excited about meeting more SPC members and discovering new challenges and domains together. Looking forward to meeting and learning from all of you!
+:wolf:
+1
+:wave-animated:
+17
+
+
+
+
+3 replies
+Last reply 6 months agoView thread
+
+
+Agnieszka Szefer
+  6:41 PM
+Hi! I'm excited to be a member at SPC SF!!
+About Me - LinkedIn
+I grew up in a tiny village in the north of Poland :flag-pl:. I ventured out early, when I was 15, attending a high school in another city (fun fact: my boarding school friends from these days led the development of GPT-4 and OpenAI Dota Five) and then moving to the UK to do my undergrad and master's in Computer Science at Imperial College London :gb:
+Professionally, I've done engineering, data science, ML and product at startups (CircleUp) and larger companies (Amazon, Stitch Fix, King.com) in SF, Seattle and Stockholm :bridge_at_night: :seattle: :flag-se:
+Stuff I built in the last 10 years and topics I can help with:
+Was the founding director of the Data Driven Investing department at Bain Capital Ventures leading the effort to bring the latest in ML/DS to their investing efforts. Went from 1 IC running scripts on a laptop to an engineering and data science team with production systems on AWS, Snowflake, DBT, terraform and ML models.
+Jumped through months of legal and political hoops to initiate the collaboration between Stitch Fix and OpenAI. We were one of the first teams in the world to collaborate with OpenAI’s team on their alpha API exposing early GPT-3 and DALLE models, fine-tuning etc., months before the public release of ChatGPT. I led workshops on NLP, transformers, built tools to help both data scientists and product managers plug into these capabilities.
+Years of experience unlocking text data for ML applications at scale. I led multiple projects to leverage millions of item-level text feedback notes from Stitch Fix clients to improve our recommendation systems and search. Some of my work made it to this blog and TechCrunch. I also created a product classification system to enable evaluating millions of emerging consumer products for investing purposes at CircleUp.
+Built from scratch or upgraded numerous engineering and ML systems, e.g. transitioned Stitch Fix's stylist recommendation system from batch to real-time, implemented batch messaging system for Amazon Kindle’s push notifications, built a semi-realtime anomaly detection system for popular games like Candy Crush and Farm Heros Saga.
+Interests
+Building stuff and entrepreneurship! I run a few cash flow side hustles, mostly with 
+@Adam Szefer
+, e.g. we’re renovating and renting out a 200 year old property in Poland. Hit us up if you need a unique spot for a wedding or retreat!
+Hosting and community building. Every month I host at least a few friends, sometimes for weeks at a time. In September I’m organizing a world reunion for ~100 alumni of CRS camp I went to as a teenager (please considering donating to this nonprofit here)
+Escape rooms and board games (I may have done all escape rooms in SF already...) :old_key:
+Biking around SF, hiking, backpacking, kayaking, traveling (most recently hiked in Tasmania :koala: and Japan :sushi:)
+Currently exploring
+Teaming up with my brother 
+@Adam Szefer
+ on multiple ideas :thinkspin: (see above!)
+Picture: Me and my husband Henry hiking an active volcano Yakedake in Japan
+
 Tyler Bainbridge
   4:37 PM
 Hi everyone!! Looking forward to meeting you all.
@@ -5937,4 +7836,459 @@ Huge fan of card / strategy games - Marvel Snap primarily, and recently picked u
 We recently had a baby girl so have taken a break from fitness and traveling. Hoping to get back to them over the next 5-6 months :slightly_smiling_face:
 Get obsessed quickly with games - Played Smash Bros semi-competitively in Sweden (would go for local tourneys + money matches), Tried to get into Fortnite but quickly churned after I couldn't keep up with my minecraft-obsessed cousins - but still hit up Zero Build once in a while
 Here's a fun pic from a hike we did last year
+
+Andrew Pignanelli
+  12:55 PM
+Hey everyone. I'm Andrew, nice to meet all of you!
+About me:
+Dropped out of college to start a company called Velvet which did tech for private equity/vc funds, became the youngest owner of a broker-dealer company in the US, and ended up doing institutional-scale secondaries alongside selling specialized LLM software to our customers.  As CEO spent a lot of time hiring, running operations, and leading product. Grew it from a tiny house in Salt Lake City (where im from) to about 20 people. Did over 1.5m in revenue last year and got bought out in early July. Time for round 2 >:)
+Only somewhat technical, i've recently gotten really good at coding things with claude/cursor. Very product/design minded.
+Currently exploring:
+A system to get AI agents to autonomously run a whole company. Open to new ideas but can't get this one out of my head at the moment.
+I can help with:
+Finance/funding strategy, round structures, etc
+LLMs and products based on LLMs
+Figma and UI/UX design
+Company operations
+Looking for help with:
+Technical muscle. I want to build a highly technical highly automated company, and want to connect with people who think the same way
+Marketing to developers and technical users.
+Personal interests:
+Huge fan of EDM, do visual dj on occasion, sports like climbing/boxing/weightlifting, enjoy traveling, doing fun things in NYC!
+Here's me in italy this summer!
+IMG_5193.jpeg
+ 
+IMG_5193.jpeg
+
+
+:wave-animated:
+14
+
+
+
+
+
+
+8 replies
+Last reply 7 days agoView thread
+
+
+Ihsan Kabir
+  2:26 PM
+joined #introductions. Also, Josh Schneider
+ and 3 others joined.
+
+
+Nolan Leung
+  8:21 AM
+Hey everyone! I'm Nolan, excited to jam out of SPC NYC. :statue_of_liberty:
+About me:
+Prev CTO @ Complicore, a credentialing platform used by healthcare payers to manage vendor compliance, mostly in Non-Emergency Transportation.
+Dropped out of NYU but spent a lot of time in the OSIRIS Lab with friends who now hack governments at Trail of Bits, got Apple to add a hardware flag for jailbreak detection at Uber Security, and founded Capsul8.
+I have a family filled with artists and have accepted that instead of creating concept art for Dune 3 or selling hand made ceramic pottery, my medium is writing software to make the world more beautiful.
+Born and raised in NYC, ask me about how selling fire crackers on Mott street almost started a war between the triads and the italian mob.
+Currently exploring:
+Making pretraining multimodal models more accessible
+Healthcare reform, specifically e2e benefit management.
+Personal interests:
+Community, especially providing opportunities for the next generation.
+Ball, watching basket and playing pickle.
+Industrial design, I'm currently prototyping an under desk laptop mount so that I don't ever have to plug in a cable again.
+Ask me about:
+Healthcare payers and 18 month sales cycles
+Distributed systems and why I think Cloudflare is killing it and not killing it at the same time
+Multimodal models and the big friendly black box
+also I'm getting married! Here's my fiancé and I in Paris:
+IMG_1958_sm.jpg
+ 
+IMG_1958_sm.jpg
+
+
+:wave:
+14
+:heart:
+8
+:firecracker:
+1
+
+
+
+
+3 replies
+Last reply 10 days agoView thread
+
+
+Henry Dowling
+  9:02 AM
+Hi all, I'm Henry :slightly_smiling_face:
+Background
+Originally from Connecticut, studied Applied Math/CS @ Harvard. Based in NYC nowadays.
+Joined Bubble as an early engineer back in 2020, wound up leading product on Platform + AI teams there
+Quit my job in October—Bubble had grown from ~20->150 people and become a lot more mature; for me it's time to build something 0->1 again
+Currently exploring: AI for Site Reliability Engineer persona
+Leading product on Bubble's platform team, I saw a bunch of menial + repetitive work done by SREs.
+We built a first version of an AI tool for regression detection at Bubble, engineers loved it
+Personal interests:
+Occasional musician (I'm on spotify!)
+Catch me running on the west side highway most mornings
+Ask me about:
+Observability + site reliability, why most products in this space are approaching automation the wrong way
+Building 0->1 AI products, usability testing + iterating quickly
+No-code— why I think it's really great and you should consider using it to build an MVP
+Enterprise security / SOC-2 —became a bit of an expert on this leading security at Bubble
+Below: hiking the haute route in Switzerland
+Screenshot 2024-11-13 at 10.01.47 AM.png
+ 
+Screenshot 2024-11-13 at 10.01.47 AM.png
+
+
+:wave:
+17
+
+
+
+
+3 replies
+Last reply 10 days agoView thread
+
+
+Claudia Vanea
+  10:21 AM
+joined #introductions. Also, Anaid Chacón
+ and 3 others joined.
+
+
+Bryan Houlton
+  11:56 AM
+Hey! I'm Bryan :)
+Background
+East Coast transplant to SF
+Dropped out of school to do YC
+Have been working in GTM tools for the last few years, but I'm exploring other areas
+Currently Exploring
+What B2B GTM looks like in the next decade
+RL, SNNs, and neuromorphic hardware
+Personal Interests
+I'm a big theater buff (have to admit to the NYC crew that you guys win this one)
+I read and write a lot
+Ask me about
+Frontend engineering and design systems
+Sales and marketing tools
+General backend stuff
+Getting into writing!
+Me and my previous cofounder in Hurricane, UT (edited) 
+IMG_4902.jpeg
+ 
+IMG_4902.jpeg
+:wave-animated:
+10
+
+
+
+
+4 replies
+Last reply 5 days agoView thread
+
+
+Nikhil Ramesh
+  12:31 PM
+joined #introductions. Also, Sadjad Fouladi
+ and Sam Haveson
+ joined.
+
+
+Suyog Sonwalkar
+  1:46 PM
+Hi everyone, I’m Suyog - joining SPC in SF after living in New York for 9 years (UES for 7).
+Background:
+Ex-CTO and Cofounder of LastMileAI where we were working on bringing LLMs into production for businesses. I had to leave due to a medical issue, but am better now and exploring new opportunities in AI software development.
+Prior to LastMIle, I was the tech lead of the Jupyter notebook platform (Bento) at Facebook and also worked at Oculus on WebGPU technology for a short while.
+Before that I worked at Oscar Health - a health insurance startup in the NYC area; and was also at Capital One so have worked in heavily regulated industries before.
+Graduated from Carnegie Mellon back in 2011 with a background in Electrical and Computer Engineering - Signals & Systems / Pattern recognition.
+Currently Exploring:
+Building an AI first software development platform. I’ve already built out an agent (pushrobin) that can take a GitHub issue and produce a working PR (PR review also updates the code), but saw that what I really wanted was “have a high level idea” and have it deployed into production automatically - which requires a rethinking of the entire software development stack. At Facebook, I’ve seen tooling much better than Github so am taking some inspiration from learnings working in Dev Infra there.
+Personal interests:
+Basketball and Football fan (Go Steelers!)
+Into running & weight lifting - will probably find me running along Embarcadero now I’m in SF or east side of Central Park if I’m back in NYC
+Huge JRPG video game fan - can probably talk to me about anything from SNES to modern ones
+Ask me about:
+Fullstack engineering, python, react, build systems
+AI applications, embedding models, AI agents / agent “swarms”
+Robotics (interested in, but haven’t really done work in the space since CMU)
+Screenshot 2023-10-09 at 12.40.21 AM.png
+ 
+Screenshot 2023-10-09 at 12.40.21 AM.png
+
+
+:wave:
+15
+
+
+
+
+3 replies
+Last reply 10 days agoView thread
+
+
+Ihsan Kabir
+  3:01 PM
+:wave::skin-tone-2: Yo! I’m Ihsan. Pumped to be here!
+Background:
+Originally from Bangladesh. Currently in New York (with previous stints in Oakland and New York before that)
+Spent the past decade working mostly in product in fintech - Cash App, EarnIn, and Plaid (via Quovo acquisition) in reverse chronological order
+Got into angel investing a few years ago and I’ve invested in some SPC companies!
+Current Exploring:
+Making it easier for immigrants to care for their elderly loved ones in their home countries. Specifically targeting the Indian diaspora first, and focusing on making it easier for them to get quality on-demand care (doctors, labs, etc all done at home with results sent to the immigrant in the US)
+Personal Interests:
+Reading! Love talking books (mostly, but not exclusively, fiction) and recently into poetry
+Dance - classes/workshops at Mark Morris, ODC in the Bay, Modega, Alvin Ailey, etc
+Fitness (lifting, swimming, pilates, yoga, running, and a workout class in NYC called Tone House)
+Looking for help with:
+Connections to doctors and hospitals (esp hospitals with between ~50 and 200 beds) in India (preference for Bangalore, Hyderabad, and Chennai)
+Connections to (current or former) operations people at on-demand service companies in India (Flipkart, Swiggy, Uber, Big Basket, etc)
+Chatting with any Indian diaspora member who has struggled to take care of their parents/grandparents from afar!
+What I can help with / what other members can ask me about:
+Talking Fintech, esp consumer fintech and the current regulatory environment
+Lessons learned from Cash App’s design culture
+Being a sounding board, esp if you hit a stuck point!
+And here’s a photo of me in late Feb 2020 being totally naive about how much would change….
+B439BF8E-101A-43F5-BC2D-C99B30D793E1.JPG
+ 
+B439BF8E-101A-43F5-BC2D-C99B30D793E1.JPG
+
+
+:wave:
+14
+
+
+
+
+
+
+7 replies
+Last reply 5 days agoView thread
+
+
+Nikhil Ramesh
+  3:23 PM
+About me:
+I’ve spent over 17 years in big tech (Apple, Microsoft) building products at the intersection of machine learning and software engineering. I love diving deep into technical challenges and collaborating with teams to bring great products to life. At Apple, I led a team of ML scientists and engineers to create  Knowledge Answers feature for Siri, gaining hands-on experience with language models, retrieval systems, and building AI products at scale. Before that, I was an applied scientist at Microsoft, working on projects like Cortana, Bing, and Email Intelligence.
+Three months ago, I decided to leave Apple to explore the startup world and see how I can contribute to building products that truly delight customers.
+Currently Exploring:
+Collaborating with three longtime friends (we go back over 20 years!) to brainstorm ideas for building a company focused on vertically integrated AI applications.
+Currently exploring the legal domain, diving into legal workflows to see how generative AI could transform the practice of law.
+Personal interests:
+Spend time with kids (7 and <1), family and friends.
+Love to travel and explore new cultures, food, music and nature. (Went to Oktoberfest in Munich this year - which was a blast!)
+Biking and hiking to keep me physically active.
+Enjoy reading science fiction, fantasy fiction, biographies.
+Follow Formula 1. Go Ferrari!! Go Leclerc!!
+Ask me about:
+Shipping AI products / features at scale
+LLMs, RAG, Natural language processing
+Search systems, Information Retrieval
+Voice assistants
+IMG_4732 2.jpg
+ 
+IMG_4732 2.jpg
+:wave::wave::skin-tone-3:
+17
+:wave-animated:
+3
+
+
+
+
+
+5 replies
+Last reply 3 days agoView thread
+
+
+Evan Williams
+  3:44 PM
+joined #introductions. Also, Rajeev Kumar
+ joined.
+
+
+Sara Du
+  1:15 PM
+Hi all, excited to be joining SPC in :foggy:
+Background (LinkedIn, Twitter)
+Grew up in Atlanta
+Left high school and came to SF at 17, then decided I should try college. I managed to do 1 year of undergrad at Harvard
+I didn’t intend to drop out to start a company, but still ended up doing that. I built Alloy over the past 5 years — we raised $27M from a16z, Bain, YC, etc; have major contracts w Amazon, Best Buy, etc. I led the company as CEO until a few months ago, then transitioned to Executive Chair because I wanted more time to explore the latest in AI. Especially as we’ve closed more enterprise deals, the types of things I want to build don’t fit neatly within Alloy.
+I just returned to SF after 3 years in NYC. It feels amazing to be back here for -1 to 0 again, and approaching everything with a beginner’s mind.
+Currently exploring:
+LLM understanding of the DOM, AI QA, etc
+Applying AI SEO to Alloy (have evaluated many tools in the space, not intending to build, but looking to buy)
+Personal interests:
+Old / foreign / arthouse films, architecture, business history (love Softwar, Kochland, etc)
+I angel invest quite a bit, to learn vicariously through other founders
+Looking for help with:
+Founding eng referrals — looking for the types of folks who think about runtime / language design / architecture at large, quietly intense, strategic, craft-driven…
+What I can help with / what other members can ask me about:
+Marketing, design
+Getting good at sales as a technical founder
+Integrations
+X (formerly Twitter)X (formerly Twitter)
+Sara Du (@saraduit) on X
+cofounder @alloyautomation, dropped out @harvard
+:wave-animated:
+28
+:heart:
+3
+
+
+
+
+
+4 replies
+Last reply 10 days agoView thread
+
+
+Heejin Jeong
+  2:01 PM
+Super excited to be here and looking forward to meeting you all!
+Background
+Previously, Principal AI PM & Staff AI Researcher @ Together AI (Series A unicorn startup building AI cloud platform); Joined ~1.5 years ago as the 1st full-time researcher, grew from 15 to 100+ people.
+Worked @ Waymo for 3 years as a cross-functional tech lead and ML engineer building transformer models to predict future human agent behavior.
+Studied RL during my PhD
+From Seoul, Korea. Came to the states about 10 years ago for grad school! 
+Personal Interests
+Traveling and learning about different cultures
+Heavy metal music… I used to play drums in rock bands growing up, but don’t play them much anymore. I also like classical music!
+Hiking, martial arts
+Currently exploring
+Getting the right diagnosis and the best treatment plan can be challenging especially for complex and rare diseases. For clinicians, the cognitive burdens to follow constantly updating new guidelines and drugs are increasing. I’m exploring ways to reduce care disparities using AI by empowering clinicians and healthcare professionals.
+Topics members can ask you about
+LLM inference & fine-tuning, multi-modal models
+RL
+Self-driving
+Research to Product/Business/Sales transition & Cross-functional leadership
+Selling to ML engineers / AI developers
+Here is a picture of me in Sicily, Italy this April!
+IMG_5374
+ 
+IMG_5374
+
+
+:rocker:
+24
+:heart:
+5
+
+
+
+
+3 replies
+Last reply 10 days agoView thread
+
+
+Josh Schneider
+  2:40 PM
+Hey everyone! I’m Josh in SF. Excited to be a part of the community!
+About me
+Grew up in south Florida
+Founding engineer at PropelAuth (YCW22)
+Built and sold PDF.ai (1m+ users)
+Currently exploring
+Building products with Anthropic’s new computer use model
+Virtual computers for AI agents
+Personal interests
+Pickleball & tennis
+Hanging with family (I’m one of seven siblings!)
+Ask me about
+Building full stack AI apps
+Viral marketing
+AI agents, tool use, computer use
+Feel free to reach out! (Twitter, LinkedIn) I want to meet as many of you as I can. Here's a picture of me (on the right) and some family in Newport.
+B6422B60-C9E7-4080-A62D-9537D327DE0A.jpg
+ 
+B6422B60-C9E7-4080-A62D-9537D327DE0A.jpg
+
+
+:wave:
+18
+
+
+
+
+
+
+11 replies
+Last reply 5 days agoView thread
+
+
+Saumitra Purohit
+  11:18 PM
+joined #introductions. Also, Jouya Jadidian
+ joined. Rob Cheung
+ left.
+
+
+Anaid Chacón
+  9:56 PM
+Hi all, finally feeling like a human after a couple of days down!  I'm joining SPC in NYC with the latest batch, but I've spent equals amounts of time between SF and here.
+About me (LinkedIn)
+Born and raised in Chihuahua, Mexico (trivia fact: it means "dry and sandy place", no the dogs are not from there :dog2:).
+I'm an Electronic Engineer, who fell in love with software and then got caught into the magic of building businesses and human centric experiences (I hold two patents).
+Came to the East Coast for grad school, but ended up moving to SF to be amongst the first 200 employees at Dropbox. I stayed for 7 really fun years and worked across 3 different cities. 
+I have built companies across B2B, Consumer, and Marketplaces in both horizontal and vertical use cases (logistics, fintech, retail). 
+I've been Head of Product for a couple of Seed to Series C companies and built design, marketing, data, and product teams.
+I'm infinitely curious and I'm always looking to learn new skills and ways of understanding the world.
+Currently Exploring
+How to bring personal styling to the masses and reduce waste in the fashion industry.  My first goal is to eliminate returns before they happen by improving the likelihood an item will fit and be the best style for an individual at the time of purchase.
+I'm particularly interested in applying AI-agents to improve the customer interaction and apparel discovery, and a combination of 3D scanning and ML to better understand what fits a particular individual.
+Personal Interests
+Building stuff. Right now, carpentry is at the top of the list. I started dabbling into this during the pandemic. I built a kitchen, a fence, and a cat house. All of them are still standing, thank you YouTube! I want to get into Japanese Carpentry in 2025.
+Reading science fiction. Isaac Asimov is a personal favorite.
+Fashion, styling, design, and how they impact our mental, behavioral, and physical health.
+Traveling and learning languages. I love how languages capture the values and worldviews of a culture.
+Exploring new restaurants (especially in Queens!).
+Ask me about
+Infrastructure products, AI applications
+Product Development, prototyping, customer discovery
+Marketplaces and operations-heavy businesses
+How to take your indoor cat for a hike
+Here's a picture of me with my fiancé James and our cat Taki (yes, like the snacks!). Excited to be here :sparkles:
+Screenshot 2024-08-01 at 9.41.33 PM.png
+ 
+Screenshot 2024-08-01 at 9.41.33 PM.png
+:shopping_bags:
+6
+:wave-animated:
+23
+:dropbox:
+5
+
+
+
+
+
+
++1
+8 replies
+Last reply 5 days agoView thread
+
+
+Claudia Vanea
+  4:05 PM
+Hi Everyone! Whoops, a little late to the intros. Just joined SPC in NYC and I’ve already met a bunch of great people. Looking forward to meeting more in NYC and beyond!
+About me
+Romanian who grew up in the UK
+Finished a PhD at Oxford building AI to analyse placenta histology images (my main paper)
+Previously studied philosophy and then did a computer science conversion masters. Philosophy still holds a dear place in my heart
+Recently made a LinkedIn account so help me build my network :blush: Will also start posting on X soon (I promise!)
+Currently exploring
+Bringing AI placenta histology analysis in front of pathologists or straight to consumer
+Femtech/health, maternal health and AI for healthcare more generally. I want to start generating content in this space at a minimum.
+Joining an AI healthcare initiative at a techgiant
+Personal Interests
+Video games, board games, bouldering, birdwatching, biology, speciality coffee, food, and recently drawing
+Ask me about…
+Any of the stuff above but come chat about anything!
+Always happy to help with AI design. I have the most experience with computer vision models and graph neural networks but am familiar with LLMs too
+There seem to be quite a few smash players here, SPC smash tournament?
+We could also organise a bouldering day!
+I got married earlier this year so here’s a pic from our wedding, being chased by deer and hiking in Japan, and a drawing I recently obsessed over
 `

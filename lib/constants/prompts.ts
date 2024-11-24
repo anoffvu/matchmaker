@@ -60,6 +60,8 @@ Remember to focus on creating meaningful connections that could lead to potentia
 
 Here are some examples of good matching:
 {{EXAMPLE_RESULTS}}
+
+And in your <reason> block for each match, also include 1-3 specific topics or ideas or interest areas you could chat with this match about. Don't format it like bullets but like natural language.
 `
 
 // Define the parameters that need to be injected
