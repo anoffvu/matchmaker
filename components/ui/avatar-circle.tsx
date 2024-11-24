@@ -35,22 +35,6 @@ export function AvatarCircle({ name, size = 40 }: AvatarCircleProps) {
   const getGradientColors = (name: string) => {
     const hash = getHashCode(name)
 
-    // Base colors with high variety
-    const baseColors = [
-      ['#FF6B6B', '#4ECDC4'], // Coral to Turquoise
-      ['#06D6A0', '#1B9AAA'], // Emerald to Ocean
-      ['#7209B7', '#3A0CA3'], // Purple to Indigo
-      ['#F72585', '#4361EE'], // Pink to Blue
-      ['#4CC9F0', '#4895EF'], // Azure to Sky
-      ['#F9C74F', '#90BE6D'], // Yellow to Green
-      ['#2EC4B6', '#FF9F1C'], // Teal to Orange
-      ['#9B5DE5', '#00BBF9'], // Purple to Cyan
-      ['#FF006E', '#3A86FF'], // Red to Blue
-      ['#8338EC', '#3A86FF'], // Purple to Blue
-      ['#2D00F7', '#FF0075'], // Electric Blue to Hot Pink
-      ['#00F5D4', '#00BBF9'], // Mint to Sky
-    ]
-
     // Add some randomization to the colors while keeping them vibrant
     const color1 = generateColor(hash, 70 + (hash % 20), 60 + (hash % 15))
     const color2 = generateColor(
