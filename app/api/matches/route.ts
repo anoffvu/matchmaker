@@ -152,8 +152,11 @@ export async function POST(req: Request) {
         requestId,
         type: 'error',
         timestamp: new Date().toISOString(),
-        error: error.message,
-        stack: error.stack?.slice(0, 500) + '...',
+        error: error instanceof Error ? error.message : 'Unknown error',
+        stack:
+          error instanceof Error
+            ? error.stack?.slice(0, 500) + '...'
+            : 'No stack available',
         duration: Date.now() - startTime,
       })
     )
