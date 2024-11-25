@@ -401,14 +401,15 @@ export default function Home() {
           </Card>
         ) : (
           <div className='animate-in fade-in-0 duration-500'>
-            <div className='flex items-center justify-between p-8'>
+            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 sm:p-8 gap-4'>
               <h2 className='text-2xl font-medium bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent'>
                 Your Matches
               </h2>
               <Button
                 onClick={() => setCurrentView('questionnaire')}
                 variant='outline'
-                className='bg-[#2A2A2A] border-[#3A3A3A] hover:bg-[#303030] text-white/80 hover:text-white transition-colors'
+                size='sm'
+                className='w-full sm:w-auto bg-[#2A2A2A] border-[#3A3A3A] hover:bg-[#303030] text-white/80 hover:text-white transition-colors'
               >
                 ← Back to Questionnaire
               </Button>
@@ -506,7 +507,7 @@ export default function Home() {
         )}
       </div>
       {/* Updated footer with link */}
-      <footer className='text-center py-4 text-white/40 text-sm'>
+      <footer className='text-center pb-8 text-white/40 text-sm'>
         -1 to 0... with friends :)
         <br />
         Made by{' '}
