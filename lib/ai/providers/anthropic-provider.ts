@@ -45,4 +45,9 @@ export class AnthropicProvider implements AIProvider {
       },
     })
   }
+
+  async generateEmbedding (value: string): Promise<number[]> {
+    // TODO use a third party embedding model with Anthropic
+    return [];
+  }
 }
