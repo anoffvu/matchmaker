@@ -7,5 +7,6 @@ export const AI_MODELS = {
     PRO: 'gemini-1.5-pro',
     FLASH: 'gemini-1.5-flash',
     FLASH_8B: 'gemini-1.5-flash-8b',
+    EMBEDDING: 'text-embedding-004',
   },
 } as const
