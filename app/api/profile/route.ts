@@ -8,13 +8,15 @@ export async function POST(req: Request) {
 
   try {
     const body = await req.json();
-    const { name, bio } = body;
+    const { name, bio, matchreason, attributes } = body;
 
-    const res = await createUser({ name, bio });
+    const user = await createUser({ name, bio, matchreason, attributes });
 
     return Response.json({
       message: "User bio saved successfully",
       success: true,
+      matches: user.matches,
+      matchreason: user.matchreason,
     });
   } catch (error) {
     console.error("Full error:", error); // This logs to Vercel's error tracking

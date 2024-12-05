@@ -6,13 +6,13 @@ export const users = pgTable("users", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   name: varchar({ length: 2048 }).notNull(),
   bio: varchar({ length: 2048 }),
-  lookingFor: varchar({ length: 2048 }),
-  embedding: vector('embedding', { dimensions: 1536 }),
+  matchreason: varchar({ length: 2048 }),
+  attributes: varchar({ length: 2048 }),
+  embedding: vector('embedding', { dimensions: 768 }),
 });
 
 export const insertUserSchema = createSelectSchema(users).extend({}).omit({
   id: true,
-  lookingFor: true,
 });
 
 // Type for resources - used to type API request params and within Components

@@ -11,7 +11,7 @@ export class GeminiProvider implements AIProvider {
 
   async generateResponse(prompt: string): Promise<string> {
     const model = this.client.getGenerativeModel({
-      model: AI_MODELS.GEMINI.PRO,
+      model: AI_MODELS.GEMINI.FLASH,
     });
     const result = await model.generateContent(prompt);
     const response = await result.response;
@@ -20,7 +20,7 @@ export class GeminiProvider implements AIProvider {
 
   async generateStreamingResponse(prompt: string): Promise<ReadableStream> {
     const model = this.client.getGenerativeModel({
-      model: AI_MODELS.GEMINI.PRO,
+      model: AI_MODELS.GEMINI.FLASH,
     });
     const result = await model.generateContentStream(prompt);
 

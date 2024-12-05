@@ -1,2 +1,4 @@
 -- Custom SQL migration file, put your code below! --
-CREATE EXTENSION vector;
+create extension vector
+with
+  schema extensions;

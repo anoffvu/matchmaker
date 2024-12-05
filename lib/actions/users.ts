@@ -3,17 +3,24 @@
 import { NewUserParams, insertUserSchema, users } from "@/lib/db/schema/users";
 import { getEmbeddings } from "../ai/embeddings";
 import { db } from "../db";
+import { supabaseClient } from "@/lib/db";
 
 export const createUser = async (input: NewUserParams) => {
   try {
-    const { name, bio } = insertUserSchema.parse(input);
+    const { name, bio, attributes, matchreason } =
+      insertUserSchema.parse(input);
 
-    const userString = `NAME: ${name}. BIO: ${bio}`;
-    const embedding = await getEmbeddings(userString);
+    const embedding = await getEmbeddings(attributes as string);
 
-    await db.insert(users).values({ name, bio, embedding });
+    const { data: matches } = await supabaseClient.rpc("match_users", {
+      query_embedding: embedding,
+      match_threshold: 0.5,
+      match_count: 4,
+    });
 
-    return { success: true };
+    await db.insert(users).values({ name, bio, attributes, matchreason, embedding });
+
+    return { name, matchreason, embedding, matches };
   } catch (error) {
     throw error;
   }

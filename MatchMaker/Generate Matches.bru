@@ -1,0 +1,18 @@
+meta {
+  name: Generate Matches
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/matches
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "bio": "Hi all, very excited to join SPC here in SF and I look forward to meeting and working with this amazing group! Currently: Building Flowplay, an IDE for building LLM agents and workflows, with my cofounder Brian :point_up:. Previously: Building Minerva Project + University as SWE → VPE. Highlights included setting up new campuses in Berlin and Buenos Aires; building a multiplayer learn-to-code platform; running a summer undergrad internship for applied ML. Very Previously: Learned to code on a :commodore: C64 with the Programmers Reference Guide and a steady stream of Compute's Gazette magazines. Personal interests include dance (social, ballroom, hiphop), hiking and backpacking, indoor cycling, being an amateur with a soldering gun, ad-libbing it in the kitchen, and our two newly-adopted cats. Previous :nerd_face: interests include: the science of learning, distributed systems (CRDTs, RAFT, etc.), synthetic biology.",
+    "matchingContext": ""
+  }
+}

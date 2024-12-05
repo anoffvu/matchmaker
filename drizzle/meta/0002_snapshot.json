@@ -1,6 +1,6 @@
 {
-  "id": "d3cae26b-d87f-4cdc-9c1b-3ba22dfd96e4",
-  "prevId": "0ffdb78b-03d5-4481-9eef-ee1858a1b3b2",
+  "id": "f2fd2613-9b4c-4496-b40e-c3e650ac71d6",
+  "prevId": "d3cae26b-d87f-4cdc-9c1b-3ba22dfd96e4",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -14,15 +14,15 @@
           "primaryKey": true,
           "notNull": true,
           "identity": {
-            "type": "always",
             "name": "users_id_seq",
-            "schema": "public",
             "increment": "1",
-            "startWith": "1",
             "minValue": "1",
             "maxValue": "2147483647",
+            "startWith": "1",
             "cache": "1",
-            "cycle": false
+            "cycle": false,
+            "schema": "public",
+            "type": "always"
           }
         },
         "name": {
@@ -67,10 +67,10 @@
   },
   "enums": {},
   "schemas": {},
+  "views": {},
   "sequences": {},
   "roles": {},
   "policies": {},
-  "views": {},
   "_meta": {
     "columns": {},
     "schemas": {},

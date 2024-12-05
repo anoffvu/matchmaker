@@ -5,15 +5,22 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1733318052703,
-      "tag": "0000_tranquil_white_queen",
+      "when": 1733410349432,
+      "tag": "0000_green_stick",
       "breakpoints": true
     },
     {
       "idx": 1,
       "version": "7",
-      "when": 1733318169139,
-      "tag": "0001_slimy_firebrand",
+      "when": 1733410362109,
+      "tag": "0001_curious_boomer",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1733410886900,
+      "tag": "0002_rare_manta",
       "breakpoints": true
     }
   ]
