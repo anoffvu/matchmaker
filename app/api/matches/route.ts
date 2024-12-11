@@ -1,5 +1,8 @@
 import { AIProviderFactory } from "@/lib/ai/provider-factory";
-import { generateMatchingPrompt } from "@/lib/constants/prompts";
+import {
+  generateMatchingPrompt,
+  generateSimilaritiesPrompt,
+} from "@/lib/constants/prompts";
 
 // Configure which provider to use
 const AI_PROVIDER =
@@ -125,7 +128,7 @@ export async function POST(req: Request) {
       })
     );
 
-    const profileMatchResponse = await fetch(
+    const matchingProfilesResponse = await fetch(
       `${process.env.BASE_URL}/api/profile`,
       {
         method: "POST",
@@ -138,15 +141,26 @@ export async function POST(req: Request) {
       }
     );
 
-    const profileMatchJson = await profileMatchResponse.json();
+    const { matches: potentialMatches } = await matchingProfilesResponse.json();
+
+    const matchesWithSimilarities = JSON.parse(
+      await aiProvider.generateResponse(
+        generateSimilaritiesPrompt({ potentialMatches, name, bio }),
+        "json"
+      )
+    );
 
     console.log(
       JSON.stringify({
         timestamp: new Date().toISOString(),
-        profileMatchJson,
+        matchResults: potentialMatches,
       })
     );
-    return Response.json(profileMatchJson);
+
+    return Response.json({
+      success: true,
+      matches: matchesWithSimilarities,
+    });
   } catch (error) {
     console.error("Full error:", error); // This logs to Vercel's error tracking
     console.log(

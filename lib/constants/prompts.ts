@@ -35,6 +35,9 @@ mention why this person might be a good match for someone else. Use their first 
 </matching_analysis>
 `;
 
+export const SIMILARITIES_PROMPT = `Consider this user object: """{{USER_OBJECT}}""".
+for each of the user objects in the following JSON array, add another field "similarities" with valid html of "<li>" bullet points of at least 3 common topics of interest and values similar to the current user: """{{POTENTIAL_MATCHES}}""". Return the updated JSON array with the new "similarities" field without adding any other text or any new keys.`;
+
 // Define the parameters that need to be injected
 export interface MatchingPromptParams {
   newMemberBio: string;
@@ -48,9 +51,26 @@ export function generateMatchingPrompt({
   newMemberName,
   matchingContext = "",
 }: MatchingPromptParams): string {
-  const matchingPrompt = MATCHING_PROMPT
-    .replace("{{NEW_MEMBER_BIO}}",newMemberBio)
+  const matchingPrompt = MATCHING_PROMPT.replace(
+    "{{NEW_MEMBER_BIO}}",
+    newMemberBio
+  )
     .replace("{{MATCHING_CONTEXT}}", matchingContext)
     .replace("{{MEMBER_NAME}}", newMemberName);
   return matchingPrompt;
+}
+
+export function generateSimilaritiesPrompt({
+  potentialMatches,
+  name,
+  bio,
+}: {
+  potentialMatches: string;
+  name: string;
+  bio: string;
+}): string {
+  return SIMILARITIES_PROMPT.replace(
+    "{{POTENTIAL_MATCHES}}",
+    JSON.stringify(potentialMatches)
+  ).replace("{{USER_OBJECT}}", JSON.stringify({ name, bio }));
 }

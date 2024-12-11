@@ -9,9 +9,12 @@ export class GeminiProvider implements AIProvider {
     this.client = new GoogleGenerativeAI(process.env.GOOGLE_AI_API_KEY!);
   }
 
-  async generateResponse(prompt: string): Promise<string> {
+  async generateResponse(prompt: string, mode = "text"): Promise<string> {
     const model = this.client.getGenerativeModel({
       model: AI_MODELS.GEMINI.FLASH,
+      generationConfig: mode === "json" ? {
+        responseMimeType: "application/json"
+      } : undefined
     });
     const result = await model.generateContent(prompt);
     const response = await result.response;

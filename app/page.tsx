@@ -11,6 +11,8 @@ import { cn } from "@/lib/utils";
 interface Match {
   name: string;
   matchreason: string;
+  similarity: number;
+  similarities: string;
 }
 
 // New interface for structured bio sections
@@ -200,6 +202,8 @@ export default function Home() {
         setError(errorMessage);
         return;
       }
+
+      console.log("MATCHES: ", data.matches);
 
       setMatches(data.matches || []);
       setSummary(data.summary || "");
@@ -494,13 +498,26 @@ export default function Home() {
                   >
                     <CardContent className="px-6 py-6 pt-4">
                       <div className="space-y-2">
-                        <div className="flex items-center gap-4 pb-2">
-                          <AvatarCircle name={match.name} size={40} />
-                          <h4 className="font-medium text-white/90">
-                            {match.name}
-                          </h4>
+                        <div className="flex items-center justify-between pb-2">
+                          <div className="flex items-center gap-4">
+                            <AvatarCircle name={match.name} size={40} />
+                            <h4 className="font-medium text-white/90">
+                              {match.name}
+                            </h4>
+                          </div>
+                          <div className="text-sm font-medium text-white/60">
+                            {Math.round(match.similarity * 100)}% Match
+                          </div>
                         </div>
-                        <p className="text-sm text-white/60">{match.matchreason}</p>
+                        <p className="text-sm text-white/60">
+                          {match.matchreason}
+                        </p>
+                        <ul
+                          className="text-sm text-white/60 list-disc list-inside space-y-1"
+                          dangerouslySetInnerHTML={{
+                            __html: match.similarities,
+                          }}
+                        ></ul>
                       </div>
                     </CardContent>
                   </Card>
