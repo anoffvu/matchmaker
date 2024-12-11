@@ -133,8 +133,22 @@ export async function POST(req: Request) {
       })
     );
 
+    console.log(
+      JSON.stringify({
+        requestId,
+        type: "profile_request",
+        timestamp: new Date().toISOString(),
+        payload: {
+          bio: formattedResponse.summary,
+          attributes: formattedResponse.keyAttributes,
+          name,
+          matchreason: formattedResponse.matchreason,
+        }
+      })
+    );
+
     const matchingProfilesResponse = await fetch(`${BASE_URL}/api/profile`, {
-      method: "POST",
+      method: "POST", 
       body: JSON.stringify({
         bio: formattedResponse.summary,
         attributes: formattedResponse.keyAttributes,
@@ -143,7 +157,18 @@ export async function POST(req: Request) {
       }),
     });
 
-    const { matches: potentialMatches } = await matchingProfilesResponse.json();
+    const profileResponseText = await matchingProfilesResponse.text();
+    console.log(
+      JSON.stringify({
+        requestId,
+        type: "profile_response",
+        timestamp: new Date().toISOString(),
+        profileResponseText
+      })
+    );
+    const responseData = JSON.parse(profileResponseText);
+
+    const { matches: potentialMatches } = responseData;
 
     const matchesWithSimilarities = JSON.parse(
       await aiProvider.generateResponse(
