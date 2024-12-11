@@ -8,6 +8,11 @@ import {
 const AI_PROVIDER =
   (process.env.AI_PROVIDER as "anthropic" | "gemini") || "anthropic";
 
+
+const BASE_URL = process.env.VERCEL_URL 
+  ? `https://${process.env.VERCEL_URL}` 
+  : process.env.BASE_URL || 'http://localhost:3000';
+
 function parseXMLResponse(text: string) {
   // Extract summary
   const summaryText = /<summary>(.*?)<\/summary>/s.exec(text);
@@ -128,7 +133,7 @@ export async function POST(req: Request) {
       })
     );
 
-    const matchingProfilesResponse = await fetch(`/api/profile`, {
+    const matchingProfilesResponse = await fetch(`${BASE_URL}/api/profile`, {
       method: "POST",
       body: JSON.stringify({
         bio: formattedResponse.summary,
