@@ -3,15 +3,11 @@ import {
   generateMatchingPrompt,
   generateSimilaritiesPrompt,
 } from "@/lib/constants/prompts";
+import { processProfileAndFindMatches } from "@/lib/actions/users";
 
 // Configure which provider to use
 const AI_PROVIDER =
   (process.env.AI_PROVIDER as "anthropic" | "gemini") || "anthropic";
-
-
-const BASE_URL = process.env.VERCEL_URL 
-  ? `https://${process.env.VERCEL_URL}` 
-  : process.env.BASE_URL || 'http://localhost:3000';
 
 function parseXMLResponse(text: string) {
   // Extract summary
@@ -36,7 +32,7 @@ function parseXMLResponse(text: string) {
   };
 }
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 export async function POST(req: Request) {
   const requestId = crypto.randomUUID();
@@ -146,29 +142,23 @@ export async function POST(req: Request) {
         }
       })
     );
-
-    const matchingProfilesResponse = await fetch(`${BASE_URL}/api/profile`, {
-      method: "POST", 
-      body: JSON.stringify({
-        bio: formattedResponse.summary,
-        attributes: formattedResponse.keyAttributes,
-        name,
-        matchreason: formattedResponse.matchreason,
-      }),
+    const profileResponseData = await processProfileAndFindMatches({
+      bio: formattedResponse.summary,
+      attributes: formattedResponse.keyAttributes,
+      name,
+      matchreason: formattedResponse.matchreason,
     });
 
-    const profileResponseText = await matchingProfilesResponse.text();
     console.log(
       JSON.stringify({
         requestId,
         type: "profile_response",
         timestamp: new Date().toISOString(),
-        profileResponseText
+        profileResponseData
       })
     );
-    const responseData = JSON.parse(profileResponseText);
 
-    const { matches: potentialMatches } = responseData;
+    const { matches: potentialMatches } = profileResponseData;
 
     const matchesWithSimilarities = JSON.parse(
       await aiProvider.generateResponse(

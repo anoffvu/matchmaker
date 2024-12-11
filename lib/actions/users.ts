@@ -18,10 +18,37 @@ export const createUser = async (input: NewUserParams) => {
       match_count: 4,
     });
 
-    await db.insert(users).values({ name, bio, attributes, matchreason, embedding });
+    await db
+      .insert(users)
+      .values({ name, bio, attributes, matchreason, embedding });
 
     return { name, matchreason, embedding, matches };
   } catch (error) {
     throw error;
   }
 };
+
+export async function processProfileAndFindMatches({
+  name,
+  bio,
+  matchreason,
+  attributes,
+}: {
+  name: string;
+  bio: string;
+  matchreason?: string;
+  attributes?: string;
+}) {
+  const user = await createUser({
+    name,
+    bio,
+    matchreason: matchreason ?? null,
+    attributes: attributes ?? null,
+  });
+  return {
+    message: "User bio saved successfully",
+    success: true,
+    matches: user.matches,
+    matchreason: user.matchreason,
+  };
+}

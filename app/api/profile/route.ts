@@ -1,4 +1,4 @@
-import { createUser } from "@/lib/actions/users";
+import { processProfileAndFindMatches } from "@/lib/actions/users";
 
 // export const runtime = "edge";
 
@@ -10,14 +10,14 @@ export async function POST(req: Request) {
     const body = await req.json();
     const { name, bio, matchreason, attributes } = body;
 
-    const user = await createUser({ name, bio, matchreason, attributes });
-
-    return Response.json({
-      message: "User bio saved successfully",
-      success: true,
-      matches: user.matches,
-      matchreason: user.matchreason,
+    const result = await processProfileAndFindMatches({
+      name,
+      bio,
+      matchreason,
+      attributes,
     });
+
+    return Response.json(result);
   } catch (error) {
     console.error("Full error:", error); // This logs to Vercel's error tracking
     console.log(
