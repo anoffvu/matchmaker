@@ -128,18 +128,15 @@ export async function POST(req: Request) {
       })
     );
 
-    const matchingProfilesResponse = await fetch(
-      `${process.env.BASE_URL}/api/profile`,
-      {
-        method: "POST",
-        body: JSON.stringify({
-          bio: formattedResponse.summary,
-          attributes: formattedResponse.keyAttributes,
-          name,
-          matchreason: formattedResponse.matchreason,
-        }),
-      }
-    );
+    const matchingProfilesResponse = await fetch(`/api/profile`, {
+      method: "POST",
+      body: JSON.stringify({
+        bio: formattedResponse.summary,
+        attributes: formattedResponse.keyAttributes,
+        name,
+        matchreason: formattedResponse.matchreason,
+      }),
+    });
 
     const { matches: potentialMatches } = await matchingProfilesResponse.json();
 
