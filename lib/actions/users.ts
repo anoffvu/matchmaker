@@ -9,8 +9,9 @@ export const createUser = async (input: NewUserParams) => {
   try {
     const { name, bio, attributes, matchreason } =
       insertUserSchema.parse(input);
+    const userString = attributes ?? bio;
 
-    const embedding = await getEmbeddings(attributes as string);
+    const embedding = await getEmbeddings(userString as string);
 
     const { data: matches } = await supabaseClient.rpc("match_users", {
       query_embedding: embedding,
