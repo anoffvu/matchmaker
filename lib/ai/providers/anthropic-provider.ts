@@ -45,4 +45,8 @@ export class AnthropicProvider implements AIProvider {
       },
     })
   }
+
+  async generateEmbedding (value: string): Promise<number[]> {
+    throw new Error(`Embedding generation not implemented for Anthropic provider. Cannot generate embedding for: ${value}`);
+  }
 }

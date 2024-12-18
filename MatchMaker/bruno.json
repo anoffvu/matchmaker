@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "MatchMaker",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

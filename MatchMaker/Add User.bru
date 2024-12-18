@@ -1,0 +1,19 @@
+meta {
+  name: Add User
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/api/profile
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Aaron",
+    "bio": "Hey, I am an agriculture enthusiast merging technology and plants together"
+  }
+  
+}
