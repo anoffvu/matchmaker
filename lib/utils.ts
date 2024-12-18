@@ -7,3 +7,5 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const nanoid = customAlphabet("abcdefghijklmnopqrstuvwxyz0123456789");
+
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));

@@ -1,4 +1,4 @@
-import { AIProviderFactory } from "@/lib/ai/provider-factory";
+import { getAIProvider } from "@/lib/ai/provider-factory";
 import {
   generateMatchingPrompt,
   generateSimilaritiesPrompt,
@@ -60,7 +60,7 @@ export async function POST(req: Request) {
       matchingContext: matchingContext || "",
     });
 
-    const aiProvider = AIProviderFactory.getProvider(AI_PROVIDER);
+    const aiProvider = getAIProvider();
 
     // Log before AI call
     console.log(
